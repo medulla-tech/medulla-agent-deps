@@ -40,6 +40,7 @@ var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x86_2.4.2.exe
 var/lib/pulse2/clients/win/downloads/libcurl4-7.52.1-1.tar.xz
 var/lib/pulse2/clients/win/downloads/python-2.7.9.amd64.msi
 var/lib/pulse2/clients/win/downloads/python-2.7.9.msi
+var/lib/pulse2/clients/win/downloads/LGPO.zip
 var/lib/pulse2/clients/win/downloads/python_modules/WMI-1.4.9.zip
 var/lib/pulse2/clients/win/downloads/python_modules/comtypes-1.1.3-2.zip
 var/lib/pulse2/clients/win/downloads/python_modules/configparser-3.5.0.tar.gz
