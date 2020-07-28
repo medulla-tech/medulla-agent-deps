@@ -5,7 +5,7 @@
 
 Summary:	Dependancies needed for pulse windows agent
 Name:		pulse-xmpp-agent-deps
-Version:	1.7
+Version:	1.9
 %if ! %use_git
 Release:        0%{?dist}
 %else
@@ -29,9 +29,9 @@ Source15:    https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-32
 Source16:    https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-64bit.msi
 Source17:    https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg
 Source18:    https://github.com/Homebrew/brew/archive/1.5.12.tar.gz
-Source19:    https://github.com/syncthing/syncthing/releases/download/v1.1.0/syncthing-windows-386-v1.1.0.zip
-Source20:    https://github.com/syncthing/syncthing/releases/download/v1.1.0/syncthing-windows-amd64-v1.1.0.zip
-Source21:    https://github.com/syncthing/syncthing/releases/download/v1.1.0/syncthing-macos-amd64-v1.1.0.tar.gz
+Source19:    https://github.com/syncthing/syncthing/releases/download/v1.6.1/syncthing-windows-386-v1.6.1.zip
+Source20:    https://github.com/syncthing/syncthing/releases/download/v1.6.1/syncthing-windows-amd64-v1.6.1.zip
+Source21:    https://github.com/syncthing/syncthing/releases/download/v1.6.1/syncthing-macos-amd64-v1.6.1.zip
 Source22:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/FusionInventory-Agent-2.4-1.pkg.tar.gz
 Source23:    https://download.microsoft.com/download/8/5/C/85C25433-A1B0-4FFA-9429-7E023E7DA8D8/LGPO.zip
 
