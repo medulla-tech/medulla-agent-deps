@@ -61,7 +61,7 @@ Source122:   https://files.pythonhosted.org/packages/a7/22/67cc2bac6ae2cd3a7eabb
 Source123:   https://files.pythonhosted.org/packages/7a/49/67cc7955baf2ec5b67e141da2ab2a436cbf0f8d7c9fcab54e35df21d056b/sip-4.19.8-cp36-none-win32.whl
 Source124:   https://files.pythonhosted.org/packages/30/fa/90ea79d7b6b21a50e16d2e1214bd4d45390ee1b5393dc09c3785a3dc9c7e/sip-4.19.8-cp36-none-win_amd64.whl
 Source125:   https://files.pythonhosted.org/packages/a2/38/3adebc116c711f795edb94004afbd9784576b6ee50b7f89647889382d152/tray-0.1.0.tar.gz
-Source126:   https://pypi.python.org/packages/77/d9/d272b38e6e25d2686e22f6058820298dadead69340b1c57ff84c87ef81f0/pycurl-7.43.0.1.tar.gz
+Source126:   https://files.pythonhosted.org/packages/ef/05/4b773f74f830a90a326b06f9b24e65506302ab049e825a3c0b60b1a6e26a/pycurl-7.43.0.5.tar.gz
 Source127:   https://pypi.python.org/packages/11/1b/fe6904151b37a0d6da6e60c13583945f8ce3eae8ebd0ec763ce546358947/lxml-3.6.0.tar.gz
 Source128:   https://pypi.python.org/packages/e2/e1/600326635f97fee89bf8426fef14c5c29f4849c79f68fd79f433d8c1bd96/psutil-5.4.3.tar.gz
 Source129:   https://pypi.python.org/packages/28/df/755dab9f83c37031aea1cd9915673b5633665c575d649e812657df95b944/plyvel-1.0.1.tar.gz
