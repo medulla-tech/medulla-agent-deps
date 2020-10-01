@@ -29,7 +29,10 @@ build:
      https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css \
 	 https://code.jquery.com/jquery-3.5.1.js \
 	 https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css \
-	 https://code.jquery.com/ui/1.12.1/jquery-ui.js
+	 https://code.jquery.com/ui/1.12.1/jquery-ui.js \
+	 http://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css \
+	 http://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js \
+	 https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff
 
 	mkdir -p var/lib/pulse2/clients/win/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
@@ -73,7 +76,10 @@ build:
      https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css \
 	 https://code.jquery.com/jquery-3.5.1.js \
 	 https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css \
-     https://code.jquery.com/ui/1.12.1/jquery-ui.js
+     https://code.jquery.com/ui/1.12.1/jquery-ui.js \
+     http://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css \
+     http://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js \
+	 https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff
 
 
 	#Linux Modules
@@ -114,7 +120,10 @@ build:
 	 https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css \
 	 https://code.jquery.com/jquery-3.5.1.js \
 	 https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css \
-     https://code.jquery.com/ui/1.12.1/jquery-ui.js
+     https://code.jquery.com/ui/1.12.1/jquery-ui.js \
+     http://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css \
+     http://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js \
+	 https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff
 
 	rm -frv $(DESTDIR)/tmp
 clean:

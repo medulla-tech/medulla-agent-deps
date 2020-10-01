@@ -81,7 +81,9 @@ Source141:   https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.cs
 Source142:   https://code.jquery.com/jquery-3.5.1.js
 Source143:   https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css
 Source144:   https://code.jquery.com/ui/1.12.1/jquery-ui.js
-
+Source145:   http://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
+Source146:   http://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
+Source147:   https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff
 License:	MIT
 Group:		Development/Java
 Url:		http://www.siveo.org/
@@ -111,11 +113,11 @@ mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/
-cp %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %buildroot/var/lib/pulse2/clients/linux/downloads/
+cp %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %buildroot/var/lib/pulse2/clients/linux/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/
-cp %SOURCE17 %SOURCE18 %SOURCE21 %SOURCE22 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %buildroot/var/lib/pulse2/clients/mac/downloads/
+cp %SOURCE17 %SOURCE18 %SOURCE21 %SOURCE22 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %buildroot/var/lib/pulse2/clients/mac/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 cp %SOURCE102 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE108 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE126 %SOURCE127 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 
