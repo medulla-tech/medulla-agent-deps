@@ -32,7 +32,9 @@ build:
 	 https://code.jquery.com/ui/1.12.1/jquery-ui.js \
 	 http://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css \
 	 http://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js \
-	 https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff
+	 https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
+	 https://agents.siveo.net/win/downloads/style.css \
+     https://agents.siveo.net/win/downloads/script.js
 
 	mkdir -p var/lib/pulse2/clients/win/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
@@ -79,7 +81,9 @@ build:
      https://code.jquery.com/ui/1.12.1/jquery-ui.js \
      http://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css \
      http://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js \
-	 https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff
+	 https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
+	 https://agents.siveo.net/win/downloads/style.css \
+     https://agents.siveo.net/win/downloads/script.js
 
 
 	#Linux Modules
@@ -121,9 +125,11 @@ build:
 	 https://code.jquery.com/jquery-3.5.1.js \
 	 https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css \
      https://code.jquery.com/ui/1.12.1/jquery-ui.js \
-     http://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css \
-     http://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js \
-	 https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff
+     http://cdn.datatables.net/1.10.22/css/jquery.dataTables.css \
+     http://cdn.datatables.net/1.10.22/js/jquery.dataTables.js \
+	 https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
+	 https://agents.siveo.net/win/downloads/style.css \
+	 https://agents.siveo.net/win/downloads/script.js
 
 	rm -frv $(DESTDIR)/tmp
 clean:
