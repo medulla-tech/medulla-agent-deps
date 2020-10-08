@@ -78,7 +78,8 @@ build:
 	 https://files.pythonhosted.org/packages/50/50/c1c0666778c7986368896b0e0f640e41160a43cd3ffc7ff008f61f0f6cfd/Routes-2.4.1-py2.py3-none-any.whl \
 	 https://files.pythonhosted.org/packages/04/cc/ac40aec8710b4ae32e24b8f14e5868a39b54194622ae9b85f49091f8a793/simplejson-3.16.0-cp27-cp27m-win_amd64.whl \
 	 https://files.pythonhosted.org/packages/b0/30/6cc0c95f0b59ad4b3b9163bff7cdcf793cc96fac64cf398ff26271f5cf5e/repoze.lru-0.7-py3-none-any.whl \
-	 https://files.pythonhosted.org/packages/06/e1/4acd2b4327fceb4c6446bdbca515f807ab83188526fd654940c00bcf8cc3/WebOb-1.8.5-py2.py3-none-any.whl
+	 https://files.pythonhosted.org/packages/06/e1/4acd2b4327fceb4c6446bdbca515f807ab83188526fd654940c00bcf8cc3/WebOb-1.8.5-py2.py3-none-any.whl \
+	 https://files.pythonhosted.org/packages/27/62/be65370561ddcdb85df7766c6ab4dfdd9859359eb9bbbd76fdabe8020bbc/simplejson-3.16.0-cp27-cp27m-win32.whl
 
 	#Linux Modules
 	mkdir -p var/lib/pulse2/clients/lin/downloads/

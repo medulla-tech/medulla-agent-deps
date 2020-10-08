@@ -81,7 +81,7 @@ Source151:   https://files.pythonhosted.org/packages/50/50/c1c0666778c7986368896
 Source152:   https://files.pythonhosted.org/packages/04/cc/ac40aec8710b4ae32e24b8f14e5868a39b54194622ae9b85f49091f8a793/simplejson-3.16.0-cp27-cp27m-win_amd64.whl
 Source153:   https://files.pythonhosted.org/packages/b0/30/6cc0c95f0b59ad4b3b9163bff7cdcf793cc96fac64cf398ff26271f5cf5e/repoze.lru-0.7-py3-none-any.whl
 Source154:   https://files.pythonhosted.org/packages/06/e1/4acd2b4327fceb4c6446bdbca515f807ab83188526fd654940c00bcf8cc3/WebOb-1.8.5-py2.py3-none-any.whl
-
+Source155:   https://files.pythonhosted.org/packages/27/62/be65370561ddcdb85df7766c6ab4dfdd9859359eb9bbbd76fdabe8020bbc/simplejson-3.16.0-cp27-cp27m-win32.whl
 
 Source140:   https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.js
 Source141:   https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css
@@ -119,7 +119,7 @@ Dependancies needed for kiosk windows agent
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
 cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE15 %SOURCE16 %SOURCE19 %SOURCE20 %SOURCE23 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/win/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
+cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %SOURCE155%buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/
 cp %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/linux/downloads/
