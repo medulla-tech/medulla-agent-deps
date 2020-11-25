@@ -12,7 +12,6 @@ Release:        0%{?dist}
 Release:        0.%git.1%{?dist}
 %endif
 Source0:	%{name}-%{version}.tar.gz
-Source1:     https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi
 Source2:     https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
 Source3:     https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe
 Source4:     https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
@@ -44,15 +43,12 @@ Source105:   https://pypi.python.org/packages/07/49/42c86388fed58455e7e18d3821d7
 Source106:   https://pypi.python.org/packages/2e/33/7adcc8d6b35cb72f9cc56785a3d9c63d540200c476b0cb3a0926f5b51102/sleekxmpp-1.3.1.tar.gz
 Source107:   https://pypi.python.org/packages/03/2d/cbf13257c0115bef37b6b743758411cec70c565405cbd08d0f7059bc715f/WMI-1.4.9.zip
 Source108:   https://pypi.python.org/packages/60/ad/d6bc08f235b66c11bbb76df41b973ce93544a907cc0e23c726ea374eee79/zipfile2-0.0.12-py2.py3-none-any.whl
-Source109:   https://files.pythonhosted.org/packages/69/f1/387306c495d8f9b6518ea35348668bc1e8bf56b9c7f1425b5f12df79c356/pycurl-7.43.0-cp27-none-win32.whl
 Source110:   https://files.pythonhosted.org/packages/a6/5f/09e4740d4ec0c273e2a6ebbceb3d90f4be52f46d94ccac2639c9328e397b/pycurl-7.43.0-cp27-none-win_amd64.whl
-Source111:   https://pypi.python.org/packages/f1/c7/e19d317cc948095abc872a6e6ae78ac80260f2b45771dfa7a7ce86865f5b/lxml-3.6.0-cp27-none-win32.whl
 Source112:   https://files.pythonhosted.org/packages/35/a7/6a1a44d3a37358f8fda5d1b992c837cb2db8940293c2d84faa145f29e88a/lxml-3.6.0-cp27-none-win_amd64.whl
 Source113:   https://pypi.python.org/packages/60/db/645aa9af249f059cc3a368b118de33889219e0362141e75d4eaf6f80f163/pycrypto-2.6.1.tar.gz
 Source114:   https://pypi.python.org/packages/58/2a/17d003f2a9a0188cf9365d63b3351c6522b7d83996b70270c65c789e35b9/croniter-0.3.16.tar.gz
 Source115:   https://files.pythonhosted.org/packages/4b/0d/7ed381ab4fe80b8ebf34411d14f253e1cf3e56e2820ffa1d8844b23859a2/python_dateutil-2.6.1-py2.py3-none-any.whl
 Source116:   https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl
-Source117:   https://pypi.python.org/packages/e5/cc/6dd427e738a8db6d0b66525856da43d2ef12c4c19269863927f7cf0e2aaf/psutil-5.4.3-cp27-none-win32.whl
 Source118:   https://files.pythonhosted.org/packages/b9/e4/6867765edcab8d12a52c84c9b0af492ecb99f8cc565ad552341bcf73ebd9/psutil-5.4.3-cp27-none-win_amd64.whl
 Source119:   https://github.com/mhammond/pywin32/releases/download/b223/pywin32-223.win32-py3.6.exe
 Source120:   https://github.com/mhammond/pywin32/releases/download/b223/pywin32-223.win-amd64-py3.6.exe
@@ -81,7 +77,6 @@ Source151:   https://files.pythonhosted.org/packages/50/50/c1c0666778c7986368896
 Source152:   https://files.pythonhosted.org/packages/04/cc/ac40aec8710b4ae32e24b8f14e5868a39b54194622ae9b85f49091f8a793/simplejson-3.16.0-cp27-cp27m-win_amd64.whl
 Source153:   https://files.pythonhosted.org/packages/b0/30/6cc0c95f0b59ad4b3b9163bff7cdcf793cc96fac64cf398ff26271f5cf5e/repoze.lru-0.7-py3-none-any.whl
 Source154:   https://files.pythonhosted.org/packages/06/e1/4acd2b4327fceb4c6446bdbca515f807ab83188526fd654940c00bcf8cc3/WebOb-1.8.5-py2.py3-none-any.whl
-Source155:   https://files.pythonhosted.org/packages/27/62/be65370561ddcdb85df7766c6ab4dfdd9859359eb9bbbd76fdabe8020bbc/simplejson-3.16.0-cp27-cp27m-win32.whl
 
 Source140:   https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.js
 Source141:   https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css
@@ -117,10 +112,10 @@ Dependancies needed for kiosk windows agent
 
 %install
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
-cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE15 %SOURCE16 %SOURCE19 %SOURCE20 %SOURCE23 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/win/downloads/
+cp %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE15 %SOURCE16 %SOURCE19 %SOURCE20 %SOURCE23 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/win/downloads/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %SOURCE155 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
+cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE110 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/
 cp %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/linux/downloads/
