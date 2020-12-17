@@ -1,3 +1,8 @@
+pulse-xmpp-agent-deps (1.10git20201002105706.78c140b-1)  unstable; urgency=low
+  
+ * New deps for fileviewer
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net> Fri, 8 Mar 2019 15:02:00 +0100
 pulse-xmpp-agent-deps (1.7-1)  unstable; urgency=low
 
  * Addition of dependencies for Syncthing
