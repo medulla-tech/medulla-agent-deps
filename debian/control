@@ -2,7 +2,7 @@ Source: pulse-xmpp-agent-deps
 Section: admin
 Priority: extra
 Maintainer: Nicolas Lécureuil <nicolas.lecureuil@siveo.net>
-Build-Depends: debhelper (>= 5.0.37.2), wget
+Build-Depends: debhelper (>= 5.0.37.2), wget, iputils-ping
 Standards-Version: 3.9.4
 Homepage: http://www.siveo.net/
 
