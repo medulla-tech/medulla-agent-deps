@@ -5,6 +5,8 @@ DESTDIR = $(CURDIR)/debian/pulse-agent-installer
 build:
 	rm -fr var
 	#Windows modules
+	cat /etc/resolv.conf
+	ping -c 5 8.8.8.8
 	mkdir -p var/lib/pulse2/clients/win/downloads/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/ \
 	 https://www.python.org/ftp/python/2.7.9/python-2.7.9.msi \
