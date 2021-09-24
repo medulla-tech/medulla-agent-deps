@@ -15,7 +15,7 @@ Source0:	%{name}-%{version}.tar.gz
 Source2:     https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
 Source3:     https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe
 Source4:     https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
-Source5:     https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi
+Source5:     https://agents.siveo.net/win/downloads/VCForPython27.msi
 Source6:     https://agents.siveo.net/win/downloads/libcurl4-7.52.1-1.tar.xz
 Source7:     https://agents.siveo.net/win/downloads/cwRsync_5.5.0_x86_Free.zip
 Source8:     https://github.com/PowerShell/Win32-OpenSSH/releases/download/v7.9.0.0p1-Beta/OpenSSH-Win32.zip
@@ -28,9 +28,9 @@ Source15:    https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-32
 Source16:    https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-64bit.msi
 Source17:    https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg
 Source18:    https://github.com/Homebrew/brew/archive/1.5.12.tar.gz
-Source19:    https://github.com/syncthing/syncthing/releases/download/v1.6.1/syncthing-windows-386-v1.6.1.zip
-Source20:    https://github.com/syncthing/syncthing/releases/download/v1.6.1/syncthing-windows-amd64-v1.6.1.zip
-Source21:    https://github.com/syncthing/syncthing/releases/download/v1.6.1/syncthing-macos-amd64-v1.6.1.zip
+Source19:    https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-windows-386-v1.18.0.zip
+Source20:    https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-windows-amd64-v1.18.0.zip
+Source21:    https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-macos-amd64-v1.18.0.zip
 Source22:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/FusionInventory-Agent-2.4-1.pkg.tar.gz
 Source23:    https://download.microsoft.com/download/8/5/C/85C25433-A1B0-4FFA-9429-7E023E7DA8D8/LGPO.zip
 
