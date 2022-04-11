@@ -32,7 +32,6 @@ var/lib/pulse2/clients/mac/downloads/python_modules/pycurl-7.43.0.5.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/python_dateutil-2.6.1-py2.py3-none-any.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/six-1.10.0-py2.py3-none-any.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/sleekxmpp-1.3.1.tar.gz
-var/lib/pulse2/clients/mac/downloads/python_modules/utils-0.9.0.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/zipfile2-0.0.12-py2.py3-none-any.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/psutil-5.4.3.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/plyvel-1.2.0.tar.gz
@@ -77,7 +76,6 @@ var/lib/pulse2/clients/win/downloads/python_modules/pypiwin32-219-cp27-none-win_
 var/lib/pulse2/clients/win/downloads/python_modules/python_dateutil-2.6.1-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/six-1.10.0-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/sleekxmpp-1.3.1.tar.gz
-var/lib/pulse2/clients/win/downloads/python_modules/utils-0.9.0.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/zipfile2-0.0.12-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/pysftp-0.2.9.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/paramiko-1.18.5-py2.py3-none-any.whl
