@@ -33,8 +33,8 @@ Source20:    https://github.com/syncthing/syncthing/releases/download/v1.18.0/sy
 Source21:    https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-macos-amd64-v1.18.0.zip
 Source22:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/FusionInventory-Agent-2.4-1.pkg.tar.gz
 Source23:    https://download.microsoft.com/download/8/5/C/85C25433-A1B0-4FFA-9429-7E023E7DA8D8/LGPO.zip
-Source24:    https://hndl.urbackup.org/Client/2.4.11/UrBackup%20Client%202.4.11.exe
-Source25:    https://hndl.urbackup.org/Client/2.4.11/UrBackup%20Client%20Linux%202.4.11.sh
+Source24:    https://agents.siveo.net/win/downloads/UrBackup%20Client%202.4.11.exe
+Source25:    https://agents.siveo.net/lin/downloads/UrBackup%20Client%20Linux%202.4.11.sh
 
 Source100:   https://pypi.python.org/packages/cd/59/7cc2407b15bcd13d43933a5ae163de89b6f366dda8b2b7403453e61c3a05/pypiwin32-219-cp27-none-win32.whl
 Source101:   https://files.pythonhosted.org/packages/a5/8d/739f12d811d19cd6686f97bb96b65b0e4c8ca428fb02581d872b912b14cf/pypiwin32-219-cp27-none-win_amd64.whl
