@@ -9,9 +9,4 @@ Homepage: http://www.siveo.net/
 Package: pulse-xmpp-agent-deps
 Architecture: all
 Depends: ${misc:Depends}
-Description: Pulse2 XMPP Offline dependancies
-
-Package: pulse-kiosk-agent-deps
-Architecture: all
-Depends: ${misc:Depends}
-Description: Pulse2 Kiosk Offline dependancies
+Description: Pulse2 XMPP Offline dependencies

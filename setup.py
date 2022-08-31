@@ -31,8 +31,8 @@ setup(
 
     keywords='pulse-xmpp-agent-deps',
     name='pulse-xmpp-agent-deps',
-    version='1.10',
+    version='3.0',
     debian_distro='stretch',
-    description = 'Dependancies needed for pulse agent',
+    description = 'Dependencies needed for pulse agent',
     url='https://www.siveo.net/',
     )
