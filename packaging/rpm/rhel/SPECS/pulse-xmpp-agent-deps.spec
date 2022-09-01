@@ -30,7 +30,7 @@ Source15:	https://agents.siveo.net/3.0/win/downloads/jquery.dataTables.js \
 Source16:	https://agents.siveo.net/3.0/win/downloads/glyphicons-halflings-regular.woff \
 Source17:	https://agents.siveo.net/3.0/win/downloads/style.css \
 Source18:	https://agents.siveo.net/3.0/win/downloads/script.js \
-Source19:	https://agents.siveo.net/3.0/win/downloads/UrBackup%20Client%202.5.19.exe
+Source19:	https://agents.siveo.net/3.0/win/downloads/UrBackupClient-Windows-2.5.19.exe
 
 Source100:  https://agents.siveo.net/3.0/win/downloads/python_modules/pypiwin32-223-py3-none-any.whl \
 Source101:  https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-304-cp39-cp39-win_amd64.whl \
@@ -105,7 +105,7 @@ Source206:	https://agents.siveo.net/3.0/lin/downloads/jquery.dataTables.js \
 Source207:	https://agents.siveo.net/3.0/lin/downloads/glyphicons-halflings-regular.woff \
 Source208:	https://agents.siveo.net/3.0/lin/downloads/style.css \
 Source209:	https://agents.siveo.net/3.0/lin/downloads/script.js \
-Source210:	https://agents.siveo.net/3.0/lin/downloads/UrBackup%20Client%20Linux%202.5.19.sh
+Source210:	https://agents.siveo.net/3.0/lin/downloads/UrBackupClient-Linux-2.5.19.sh
 
 
 Source300:	https://agents.siveo.net/3.0/mac/downloads/bootstrap.js \

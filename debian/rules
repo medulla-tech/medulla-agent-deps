@@ -26,6 +26,7 @@ build:
 	#  https://agents.siveo.net/win/downloads/style.css \
     #  https://agents.siveo.net/win/downloads/script.js \
 	#  https://hndl.urbackup.org/Client/2.5.19/UrBackup%20Client%202.5.19.exe
+	# mv 'UrBackup Client 2.5.19.exe' UrBackupClient-Windows-2.5.19.exe
 	# wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
 	#  https://files.pythonhosted.org/packages/d0/1b/2f292bbd742e369a100c91faa0483172cd91a1a422a6692055ac920946c5/pypiwin32-223-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/bc/ca/9311427c719f6902c30ac4a6b252a38632fa3fd0e7b360a526a0a3b1dae7/pywin32-304-cp39-cp39-win_amd64.whl \
@@ -109,7 +110,7 @@ build:
 	 https://agents.siveo.net/3.0/win/downloads/glyphicons-halflings-regular.woff \
 	 https://agents.siveo.net/3.0/win/downloads/style.css \
 	 https://agents.siveo.net/3.0/win/downloads/script.js \
-	 https://agents.siveo.net/3.0/win/downloads/UrBackup%20Client%202.5.19.exe
+	 https://agents.siveo.net/3.0/win/downloads/UrBackupClient-Windows-2.5.19.exe
 
 	mkdir -p var/lib/pulse2/clients/win/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
@@ -189,6 +190,7 @@ build:
 	#  https://agents.siveo.net/lin/downloads/style.css \
     #  https://agents.siveo.net/lin/downloads/script.js \
 	#  https://hndl.urbackup.org/Client/2.5.19/UrBackup%20Client%20Linux%202.5.19.sh
+	# mv 'UrBackup Client Linux 2.5.19.sh' UrBackupClient-Linux-2.5.19.sh
 
 	mkdir -p var/lib/pulse2/clients/lin/downloads/
 	wget --no-check-certificate -P var/lib/pulse2/clients/lin/downloads/ \
@@ -202,7 +204,7 @@ build:
 	 https://agents.siveo.net/3.0/lin/downloads/glyphicons-halflings-regular.woff \
 	 https://agents.siveo.net/3.0/lin/downloads/style.css \
 	 https://agents.siveo.net/3.0/lin/downloads/script.js \
-	 https://agents.siveo.net/3.0/lin/downloads/UrBackup%20Client%20Linux%202.5.19.sh
+	 https://agents.siveo.net/3.0/lin/downloads/UrBackupClient-Linux-2.5.19.sh
 	
 	#Mac Modules
 	# TBD
