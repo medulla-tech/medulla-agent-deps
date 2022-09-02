@@ -124,7 +124,8 @@ Group:		Development/Java
 Url:		http://www.siveo.org/
 BuildArch:	noarch
 
-Obsoletes:     pulse-kiosk-agent-deps
+Obsoletes:  pulse-kiosk-agent-deps < 3.0
+Provides:   pulse-kiosk-agent-deps = %version-%release
 
 %description
 Dependencies needed for pulse windows agent
