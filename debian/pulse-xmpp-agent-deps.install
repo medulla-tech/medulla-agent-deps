@@ -78,6 +78,7 @@ var/lib/pulse2/clients/win/downloads/python_modules/WebOb-1.8.7-py2.py3-none-any
 var/lib/pulse2/clients/win/downloads/python_modules/zc.lockfile-2.0-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl
 var/lib/pulse2/clients/win/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl
+var/lib/pulse2/clients/win/downloads/python_modules/configparser-5.3.0-py3-none-any.whl
 
 var/lib/pulse2/clients/mac/downloads/jquery.dataTables.js
 var/lib/pulse2/clients/mac/downloads/glyphicons-halflings-regular.woff

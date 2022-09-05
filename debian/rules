@@ -88,7 +88,8 @@ build:
 	#  https://files.pythonhosted.org/packages/9b/d4/d3c7d029de6287ff7bd048e628920d4336b4f8d82cfc00ff078bdbb212a3/Routes-2.5.1-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/b0/30/6cc0c95f0b59ad4b3b9163bff7cdcf793cc96fac64cf398ff26271f5cf5e/repoze.lru-0.7-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/99/c1/b0a72b566466b67b15a26561269e65f6a730cbd6c33f9f06f2a0c66dbeb4/simplejson-3.17.6-cp39-cp39-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/62/9c/e94a9982e9f31fc35cf46cdc543a6c2c26cb7174635b5fd25b0bbc6a7bc0/WebOb-1.8.7-py2.py3-none-any.whl
+	#  https://files.pythonhosted.org/packages/62/9c/e94a9982e9f31fc35cf46cdc543a6c2c26cb7174635b5fd25b0bbc6a7bc0/WebOb-1.8.7-py2.py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/e0/7a/9d0f52bf4923b2e410c7d6fda472c32d9b728284e89ec99074820226102f/configparser-5.3.0-py3-none-any.whl
 
 	mkdir -p var/lib/pulse2/clients/win/downloads/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/ \
@@ -174,7 +175,8 @@ build:
 	 https://agents.siveo.net/3.0/win/downloads/python_modules/Routes-2.5.1-py2.py3-none-any.whl \
 	 https://agents.siveo.net/3.0/win/downloads/python_modules/repoze.lru-0.7-py3-none-any.whl \
 	 https://agents.siveo.net/3.0/win/downloads/python_modules/simplejson-3.17.6-cp39-cp39-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/WebOb-1.8.7-py2.py3-none-any.whl
+	 https://agents.siveo.net/3.0/win/downloads/python_modules/WebOb-1.8.7-py2.py3-none-any.whl \
+	 https://agents.siveo.net/3.0/win/downloads/python_modules/configparser-5.3.0-py3-none-any.whl
 
 	#Linux Modules
 	# Original locations
