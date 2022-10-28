@@ -25,7 +25,8 @@ build:
 	#  https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
 	#  https://agents.siveo.net/win/downloads/style.css \
     #  https://agents.siveo.net/win/downloads/script.js \
-	#  https://hndl.urbackup.org/Client/2.5.19/UrBackup%20Client%202.5.19.exe
+	#  https://hndl.urbackup.org/Client/2.5.19/UrBackup%20Client%202.5.19.exe \
+	#  https://www.poweradmin.com/paexec/paexec_1_29.exe
 	# mv 'UrBackup Client 2.5.19.exe' UrBackupClient-Windows-2.5.19.exe
 	# wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
 	#  https://files.pythonhosted.org/packages/d0/1b/2f292bbd742e369a100c91faa0483172cd91a1a422a6692055ac920946c5/pypiwin32-223-py3-none-any.whl \
@@ -112,7 +113,8 @@ build:
 	 https://agents.siveo.net/3.0/win/downloads/glyphicons-halflings-regular.woff \
 	 https://agents.siveo.net/3.0/win/downloads/style.css \
 	 https://agents.siveo.net/3.0/win/downloads/script.js \
-	 https://agents.siveo.net/3.0/win/downloads/UrBackupClient-Windows-2.5.19.exe
+	 https://agents.siveo.net/3.0/win/downloads/UrBackupClient-Windows-2.5.19.exe \
+	 https://agents.siveo.net/3.0/win/downloads/paexec_1_29.exe
 
 	mkdir -p var/lib/pulse2/clients/win/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
