@@ -24,6 +24,7 @@ build:
 	 https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.8-gpl-setup-64bit.msi \
 	 https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-windows-386-v1.18.0.zip \
 	 https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-windows-amd64-v1.18.0.zip \
+	 https://agents.siveo.net/win/downloads/paexec_1_29.exe \
 	 https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.js \
      https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css \
 	 https://code.jquery.com/jquery-3.5.1.js \
