@@ -35,7 +35,7 @@ build:
 	 https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
 	 https://agents.siveo.net/win/downloads/style.css https://agents.siveo.net/win/downloads/script.js
 
-	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/ https://agents.siveo.net/win/downloads/UrBackup%20Client%202.4.11.exe -O var/lib/pulse2/clients/win/downloads/UrBackup_Client_2.4.11.exe
+	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/ https://agents.siveo.net/win/downloads/UrBackup_Client_2.4.11.exe -O var/lib/pulse2/clients/win/downloads/UrBackup_Client_2.4.11.exe
 
 	mkdir -p var/lib/pulse2/clients/win/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
@@ -90,7 +90,7 @@ build:
      https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
      https://agents.siveo.net/win/downloads/style.css \
      https://agents.siveo.net/win/downloads/script.js
-	 wget --no-check-certificate -P var/lib/pulse2/clients/lin/downloads/ https://agents.siveo.net/lin/downloads/UrBackup%20Client%20Linux%202.4.11.sh -O var/lib/pulse2/clients/lin/downloads/UrBackup_Client_Linux_2.4.11.sh
+	 wget --no-check-certificate -P var/lib/pulse2/clients/lin/downloads/ https://agents.siveo.net/lin/downloads/UrBackup_Client_Linux_2.4.11.sh -O var/lib/pulse2/clients/lin/downloads/UrBackup_Client_Linux_2.4.11.sh
 	
 	#Mac Modules
 	mkdir -p var/lib/pulse2/clients/mac/downloads/
