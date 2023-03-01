@@ -4,7 +4,7 @@
 %define git                    SHA
 
 Summary:	Dependancies needed for pulse windows agent
-Name:		pulse-xmpp-agent-deps
+Name:		medulla-agent-deps
 Version:	1.10
 %if ! %use_git
 Release:        0%{?dist}
@@ -98,6 +98,13 @@ BuildArch:	noarch
 %description
 Dependancies needed for pulse windows agent
 
+%package -n pulse-xmpp-agent-deps
+Summary:    Dependancies needed for pulse windows agent
+Group:      System/Servers
+Requires:   pulse2-common = %version-%release
+
+%description -n pulse-xmpp-agent-deps
+Dependancies needed for pulse windows agent
 
 %package -n pulse-kiosk-agent-deps
 Summary:    Dependancies needed for kiosk windows agent
@@ -129,7 +136,7 @@ mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 cp %SOURCE102 %SOURCE104 %SOURCE106 %SOURCE108 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE126 %SOURCE127 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 
 
-%files
+%files -n pulse-xmpp-agent-deps
 /var/lib/pulse2/clients/linux/downloads/
 /var/lib/pulse2/clients/mac/downloads/
 /var/lib/pulse2/clients/win/downloads/
