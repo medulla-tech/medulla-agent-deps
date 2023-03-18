@@ -1,4 +1,4 @@
-Source: pulse-xmpp-agent-deps
+Source: medulla-agent-deps
 Section: admin
 Priority: extra
 Maintainer: Nicolas Lécureuil <nicolas.lecureuil@siveo.net>

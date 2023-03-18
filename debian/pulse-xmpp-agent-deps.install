@@ -1,3 +1,4 @@
+var/lib/pulse2/clients/lin/downloads/UrBackup_Client_Linux_2.4.11.sh
 var/lib/pulse2/clients/lin/downloads/bootstrap.js
 var/lib/pulse2/clients/lin/downloads/bootstrap.css
 var/lib/pulse2/clients/lin/downloads/jquery-3.5.1.js
@@ -31,7 +32,6 @@ var/lib/pulse2/clients/mac/downloads/python_modules/pycurl-7.43.0.5.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/python_dateutil-2.6.1-py2.py3-none-any.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/six-1.10.0-py2.py3-none-any.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/sleekxmpp-1.3.1.tar.gz
-var/lib/pulse2/clients/mac/downloads/python_modules/utils-0.9.0.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/zipfile2-0.0.12-py2.py3-none-any.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/psutil-5.4.3.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/plyvel-1.2.0.tar.gz
@@ -61,6 +61,8 @@ var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x86_2.5.2.exe
 var/lib/pulse2/clients/win/downloads/libcurl4-7.52.1-1.tar.xz
 var/lib/pulse2/clients/win/downloads/python-2.7.9.amd64.msi
 var/lib/pulse2/clients/win/downloads/LGPO.zip
+var/lib/pulse2/clients/win/downloads/UrBackup_Client_2.4.11.exe
+var/lib/pulse2/clients/win/downloads/paexec_1_29.exe
 var/lib/pulse2/clients/win/downloads/python_modules/WMI-1.4.9.zip
 var/lib/pulse2/clients/win/downloads/python_modules/comtypes-1.1.3-2.zip
 var/lib/pulse2/clients/win/downloads/python_modules/configparser-3.5.0.tar.gz
@@ -75,7 +77,6 @@ var/lib/pulse2/clients/win/downloads/python_modules/pypiwin32-219-cp27-none-win_
 var/lib/pulse2/clients/win/downloads/python_modules/python_dateutil-2.6.1-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/six-1.10.0-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/sleekxmpp-1.3.1.tar.gz
-var/lib/pulse2/clients/win/downloads/python_modules/utils-0.9.0.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/zipfile2-0.0.12-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/pysftp-0.2.9.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/paramiko-1.18.5-py2.py3-none-any.whl
