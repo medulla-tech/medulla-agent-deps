@@ -58,6 +58,7 @@ var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.5.2-por
 var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.5.2.exe
 var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x86_2.5.2-portable.exe
 var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x86_2.5.2.exe
+var/lib/pulse2/clients/win/downloads/GLPI-Agent-1.4-x64.msi
 var/lib/pulse2/clients/win/downloads/libcurl4-7.52.1-1.tar.xz
 var/lib/pulse2/clients/win/downloads/python-2.7.9.amd64.msi
 var/lib/pulse2/clients/win/downloads/LGPO.zip
