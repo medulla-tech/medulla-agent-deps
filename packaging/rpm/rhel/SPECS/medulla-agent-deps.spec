@@ -3,8 +3,8 @@
 %define use_git                1
 %define git                    SHA
 
-Summary:	Dependencies needed for pulse windows agent
-Name:		pulse-xmpp-agent-deps
+Summary:	Dependancies needed for pulse windows agent
+Name:		medulla-agent-deps
 Version:	3.0
 %if ! %use_git
 Release:        0%{?dist}
@@ -12,7 +12,7 @@ Release:        0%{?dist}
 Release:        0.%git.1%{?dist}
 %endif
 Source0:	%{name}-%{version}.tar.gz
-Source1:	https://agents.siveo.net/3.0/win/downloads/python-3.9.9-amd64.exe
+Source1:	https://agents.siveo.net/3.0/win/downloads/python-3.11.3-amd64.exe
 Source2:	https://agents.siveo.net/3.0/win/downloads/libcurl4-7.52.1-1.tar.xz
 Source3:	https://agents.siveo.net/3.0/win/downloads/cwRsync_5.5.0_x86_Free.zip
 Source4:	https://agents.siveo.net/3.0/win/downloads/LGPO.zip
@@ -127,11 +127,20 @@ Group:		Development/Java
 Url:		http://www.siveo.org/
 BuildArch:	noarch
 
+%description
+Dependancies needed for pulse windows agent
+
+%package -n pulse-xmpp-agent-deps
+Summary:    Dependancies needed for pulse windows agent
+Group:      System/Servers
+Requires:   pulse2-common = %version-%release
+
 Obsoletes:  pulse-kiosk-agent-deps < 3.0
 Provides:   pulse-kiosk-agent-deps = %version-%release
 
-%description
-Dependencies needed for pulse windows agent
+%description -n pulse-xmpp-agent-deps
+Dependancies needed for pulse windows agent
+
 
 %prep
 %setup -q -c
