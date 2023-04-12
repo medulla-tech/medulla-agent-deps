@@ -270,7 +270,8 @@ build:
 	 https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/FusionInventory-Agent-2.4-1.pkg.tar.gz \
 	 https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg \
 	 https://github.com/Homebrew/brew/archive/1.5.12.tar.gz \
-	 https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-macos-amd64-v1.18.0.zip\
+	 https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-macos-amd64-v1.18.0.zip
+	
 	mkdir -p var/lib/pulse2/clients/mac/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/python_modules/ \
 	 https://pypi.python.org/packages/a7/4c/8e0771a59fd6e55aac993a7cc1b6a0db993f299514c464ae6a1ecf83b31d/netifaces-0.10.5.tar.gz \
