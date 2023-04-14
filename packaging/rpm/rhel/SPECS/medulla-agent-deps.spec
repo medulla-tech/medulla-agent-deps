@@ -102,7 +102,6 @@ Dependancies needed for pulse windows agent
 %package -n pulse-xmpp-agent-deps
 Summary:    Dependancies needed for pulse windows agent
 Group:      System/Servers
-Requires:   pulse2-common = %version-%release
 
 %description -n pulse-xmpp-agent-deps
 Dependancies needed for pulse windows agent
@@ -110,7 +109,6 @@ Dependancies needed for pulse windows agent
 %package -n pulse-kiosk-agent-deps
 Summary:    Dependancies needed for kiosk windows agent
 Group:      System/Servers
-Requires:   pulse2-common = %version-%release
 
 %description -n pulse-kiosk-agent-deps
 Dependancies needed for kiosk windows agent
