@@ -13,7 +13,7 @@ Release:        0.%git.1%{?dist}
 %endif
 Source0:	%{name}-%{version}.tar.gz
 Source1:	https://agents.siveo.net/3.0/win/downloads/python-3.11.3-amd64.exe
-Source2:	https://agents.siveo.net/3.0/win/downloads/libcurl4-7.52.1-1.tar.xz
+Source2:	https://agents.siveo.net/3.0/win/downloads/libcurl4-8.0.1-1.tar.xz
 Source3:	https://agents.siveo.net/3.0/win/downloads/cwRsync_5.5.0_x86_Free.zip
 Source4:	https://agents.siveo.net/3.0/win/downloads/LGPO.zip
 Source5:	https://agents.siveo.net/3.0/win/downloads/OpenSSH-Win64.zip
@@ -95,7 +95,6 @@ Source157:  https://agents.siveo.net/3.0/win/downloads/python_modules/Routes-2.5
 Source158:  https://agents.siveo.net/3.0/win/downloads/python_modules/repoze.lru-0.7-py3-none-any.whl
 Source159:  https://agents.siveo.net/3.0/win/downloads/python_modules/simplejson-3.17.6-cp39-cp39-win_amd64.whl
 Source160:  https://agents.siveo.net/3.0/win/downloads/python_modules/WebOb-1.8.7-py2.py3-none-any.whl
-Source161:  https://agents.siveo.net/3.0/win/downloads/python_modules/configparser-5.3.0-py3-none-any.whl
 Source162:  https://agents.siveo.net/3.0/win/downloads/python_modules/zipfile2-0.0.12-py2.py3-none-any.whl
 
 
@@ -122,9 +121,11 @@ Source306:	https://agents.siveo.net/3.0/mac/downloads/jquery.dataTables.js
 Source307:	https://agents.siveo.net/3.0/mac/downloads/glyphicons-halflings-regular.woff
 Source308:	https://agents.siveo.net/3.0/mac/downloads/style.css
 Source309:	https://agents.siveo.net/3.0/mac/downloads/script.js
+
 Source310:  https://agents.siveo.net/3.0/mac/downloads/syncthing-macos-amd64-v1.23.4.zip
 Source311:  https://agents.siveo.net/3.0/mac/downloads/VineServer-5.3.1.dmg
 Source312:  https://agents.siveo.net/3.0/mac/downloads/4.0.15.tar.gz
+
 License:	MIT
 Group:		Development/Java
 Url:		http://www.siveo.org/
@@ -155,7 +156,7 @@ mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
 cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE17 %SOURCE18 %SOURCE19 %SOURCE20 %SOURCE21 %buildroot/var/lib/pulse2/clients/win/downloads/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE127 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %SOURCE155 %SOURCE156 %SOURCE157 %SOURCE158 %SOURCE159 %SOURCE160 %SOURCE161 %SOURCE162 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
+cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE127 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %SOURCE155 %SOURCE156 %SOURCE157 %SOURCE158 %SOURCE159 %SOURCE160 %SOURCE162 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/
 cp %SOURCE200 %SOURCE201 %SOURCE202 %SOURCE203 %SOURCE204 %SOURCE205 %SOURCE206 %SOURCE207 %SOURCE208 %SOURCE209 %SOURCE210 %buildroot/var/lib/pulse2/clients/linux/downloads/
