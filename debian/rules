@@ -7,21 +7,21 @@ build:
 	#Windows modules
 	# Original locations
 	# wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/ \
-	#  https://www.python.org/ftp/python/3.9.9/python-3.9.9-amd64.exe \
-	#  https://agents.siveo.net/win/downloads/libcurl4-7.52.1-1.tar.xz \
-	#  https://agents.siveo.net/win/downloads/cwRsync_5.5.0_x86_Free.zip \
+	#  https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe \
+	#  https://mirrors.kernel.org/sources.redhat.com/cygwin/x86_64/release/curl/libcurl4/libcurl4-8.0.1-1.tar.xz \
+	#  https://itefix.net/dl/free-software/cwrsync_6.2.8_x64_free.zip \
 	#  https://download.microsoft.com/download/8/5/C/85C25433-A1B0-4FFA-9429-7E023E7DA8D8/LGPO.zip \
-	#  https://github.com/PowerShell/Win32-OpenSSH/releases/download/v8.9.1.0p1-Beta/OpenSSH-Win64.zip \
+	#  https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.2.2.0p1-Beta/OpenSSH-Win64.zip \
 	#  https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.6/fusioninventory-agent_windows-x64_2.6.exe \
-	#  https://www.tightvnc.com/download/2.8.63/tightvnc-2.8.63-gpl-setup-64bit.msi \
-	#  https://github.com/syncthing/syncthing/releases/download/v1.20.4/syncthing-windows-amd64-v1.20.4.zip \
-	#  https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.js \
-    #  https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css \
-	#  https://code.jquery.com/jquery-3.5.1.js \
-	#  https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css \
-	#  https://code.jquery.com/ui/1.12.1/jquery-ui.js \
-	#  http://cdn.datatables.net/1.10.22/css/jquery.dataTables.css \
-	#  http://cdn.datatables.net/1.10.22/js/jquery.dataTables.js \
+	#  https://www.tightvnc.com/download/2.8.79/tightvnc-2.8.79-gpl-setup-64bit.msi \
+	#  https://github.com/syncthing/syncthing/releases/download/v1.23.4/syncthing-windows-amd64-v1.23.4.zip \
+	#  https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.css \
+    #  https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js \
+	#  https://code.jquery.com/jquery-3.6.4.js \
+	#  https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css \
+	#  https://code.jquery.com/ui/1.13.1/jquery-ui.js \
+	#  http://cdn.datatables.net/1.13.4/css/jquery.dataTables.css \
+	#  http://cdn.datatables.net/1.13.4/js/jquery.dataTables.js \
 	#  https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
 	#  https://agents.siveo.net/win/downloads/style.css \
     #  https://agents.siveo.net/win/downloads/script.js \
@@ -29,160 +29,152 @@ build:
 	#  https://www.poweradmin.com/paexec/paexec_1_29.exe
 	# mv 'UrBackup Client 2.5.19.exe' UrBackupClient-Windows-2.5.19.exe
 	# wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
-	#  https://files.pythonhosted.org/packages/bc/ca/9311427c719f6902c30ac4a6b252a38632fa3fd0e7b360a526a0a3b1dae7/pywin32-304-cp39-cp39-win_amd64.whl \
-	#  https://download.lfd.uci.edu/pythonlibs/archived/netifaces-0.11.0-cp39-cp39-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/7e/9e/ad6b1ae2a5ad1066dc509350e0fbf74d8d50251a51e420a2a8feaa0cecbd/pywin32-306-cp311-cp311-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/a6/91/86a6eac449ddfae239e93ffc1918cf33fd9bab35c04d1e963b311e347a73/netifaces-0.11.0.tar.gz \
 	#  https://files.pythonhosted.org/packages/2c/c3/912cf11dab12ef61841242f588692d940ad1068358bff14d322267707d36/comtypes-1.1.14-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/6e/0c/5ecd888035b5ff16f82a52becb16a5391fc58cf6de951741dd9276fce5a6/slixmpp-1.8.2.tar.gz \
+	#  https://files.pythonhosted.org/packages/6b/5a/a544c9279d49f497dd602548e3d70934de1809f9522d2ed36dbf5ae416ad/slixmpp-1.8.3.tar.gz \
 	#  https://files.pythonhosted.org/packages/ab/72/991ee33a517df69c6cd6f3486cfe9b6329557cb55acaa8cefac33c2aa4d2/aiodns-3.0.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/f3/a2/770aab9a08cbf689a3576055771842fa00eb46e3456bf99fc3f247d60640/pycares-4.2.2-cp39-cp39-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/a8/16/06b84a7063a4c0a2b081030fdd976022086da9c14e80a9ed4ba0183a98a9/cffi-1.15.1-cp39-cp39-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/14/e5/b56a725cbde139aa960c26a1a3ca4d4af437282e20b5314ee6a3501e7dfc/pyasn1-0.5.0-py2.py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/cd/8e/bea464350e1b8c6ed0da3a312659cb648804a08af6cacc6435867f74f8bd/pyasn1_modules-0.3.0-py2.py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/08/ca/317ea81c207ab180fe0f965f3035c746dfe0965f0c365b8b5c9c7a4af438/pycares-4.3.0-cp311-cp311-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/43/a0/cc7370ef72b6ee586369bacd3961089ab3d94ae712febf07a244f1448ffd/cffi-1.15.1-cp311-cp311-win_amd64.whl \
 	#  https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/ee/b9/a80d1ed4d115dac8e2ac08d16af046a77ab58e3d186e22395bf2add24090/WMI-1.5.1-py2.py3-none-any.whl \
 	#  https://download.lfd.uci.edu/pythonlibs/archived/pycurl-7.45.1-cp39-cp39-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/17/78/7cc7e269c7c58f0b94c4abdf6cf2bcce2fb0ca58d415e6e4e1b805cd9f17/lxml-4.9.1-cp39-cp39-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/00/07/5a262e3213a9358e2f7caf9080aa8a984f44bf4aee84592dfb965dd34355/pycryptodome-3.15.0-cp35-abi3-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/dd/be/6a103f9dce27a824231215085c7000899d5f051fbd9e4cf2ed9a2fba7701/croniter-1.3.5-py2.py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/9e/86/e1f135e123344e32dd9bfcbf420dcc2566fa3894fda78b27f981e26c170d/lxml-4.9.2-cp311-cp311-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/b8/2e/cf9cfd1ae6429381d3d9c14c8df79d91ae163929972f245a76058ea9d37d/pycryptodome-3.17.tar.gz \
+	#  https://files.pythonhosted.org/packages/e7/f4/afbf09131612dad1737c8f9b0f4f494153f4099e114904bd6b94036e588f/croniter-1.3.14-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/e0/ac/fd6f098969d49f046083ac032e6788d9f861903596fb9555a02bf50a1238/psutil-5.9.1-cp39-cp39-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/58/d0/3bd4d381258b97fa3c36ab1bf204f509142435f25594a3062675b295f922/PyQt6-6.3.1-cp37-abi3-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/c8/d5/7d1c7f767d5478999135faaf9b2599f1b7daa792920192d9c79471a7ef07/PyQt6_sip-13.4.0-cp39-cp39-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/fc/c6/6d387e65af05c070ec1da950b2e1b22c93a623b22e534523ab30b7676463/PyQt6_Qt6-6.3.1-py3-none-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/f2/5c/da3191e91d4499991d5e5ceb203b1ca6e622b81e0cf5291c16169360d7b9/sip-6.6.2-cp37-abi3-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/05/8e/8de486cbd03baba4deef4142bd643a3e7bbe954a784dc1bb17142572d127/packaging-21.3-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/d6/0f/96b7309212a926c1448366e9ce69b081ea79d63265bde33f11cc9cfc2c07/psutil-5.9.5.tar.gz  \
+	#  https://files.pythonhosted.org/packages/2b/6d/6c04898c25cbab38af3d6be988bc8b12bba278117280194fc4abd23b8dad/PyQt6-6.5.0-cp37-abi3-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/33/df/0cda93641d98217e97924b150882d4f53e25c285852fb5c9eb19031d9f47/PyQt6_sip-13.5.1-cp311-cp311-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/d7/38/2b55d5618875bccc4d518ae1eb07fc9f060eb7cd41a7153f89d4d8f7c6f3/PyQt6_Qt6-6.5.0-py3-none-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/92/75/d1e76ca42d675b2c6f94d36e618e6a1394405335f50ff8ff9bd66ba43996/sip-6.7.9-cp37-abi3-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/ab/c3/57f0601a2d4fe15de7a553c00adbc901425661bf048f2a22dfc500caf121/packaging-23.1-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/a3/58/35da89ee790598a0700ea49b2a66594140f44dec458c07e8e3d4979137fc/ply-3.11-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/36/60/45f30390a38b1f92e0a8cf4de178cd7c2bc3f874c85430e40ccf99df8fe7/pysftp-0.2.9.tar.gz \
-	#  https://files.pythonhosted.org/packages/04/e5/39ec73dd4a8769d6759b8d6c60a1b2c9337f585407c2ae8bfb8ccb734278/paramiko-2.11.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/5e/22/d3db169895faaf3e2eda892f005f433a62db2decbcfbc2f61e6517adfa87/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/b1/f9/8c8e387e1c560448ada45266b6457be8949e58a0b5cb59e36d7506546139/bcrypt-4.0.0-cp36-abi3-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/e5/4b/45759a0238628b48113ce899ef499d39433d3ac384a132796cd9fb4977a1/cryptography-37.0.4-cp36-abi3-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/56/7c/9dd558ec0869fcecb661765d0a2504978dbfe85de24cbcccc847aa9b58e4/paramiko-3.1.0-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/a7/22/27582568be639dfe22ddb3902225f91f2f17ceff88ce80e4db396c8986da/PyNaCl-1.5.0.tar.gz \
+	#  https://files.pythonhosted.org/packages/8c/ae/3af7d006aacf513975fd1948a6b4d6f8b4a307f8a244e1a3d3774b297aad/bcrypt-4.0.1.tar.gz \
+	#  https://files.pythonhosted.org/packages/f7/80/04cc7637238b78f8e7354900817135c5a23cf66dfb3f3a216c6d630d6833/cryptography-40.0.2.tar.gz \
 	#  https://files.pythonhosted.org/packages/09/d4/4f05f5d16a4863b30ba96c23b23e942da8889abfa1cdbabf2a0df12a4532/ecdsa-0.18.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/73/4a/28788794e838acb4374ef0b9f3ce3dad0eb797a9109e966edbd56f536341/syncthing-2.4.2.tar.gz \
-	#  https://files.pythonhosted.org/packages/ca/91/6d9b8ccacd0412c08820f72cebaa4f0c0441b5cda699c90f618b6f8a1b42/requests-2.28.1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/db/51/a507c856293ab05cdc1db77ff4bc1268ddd39f29e7dc4919aa497f0adbec/charset_normalizer-2.1.1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/e9/06/d3d367b7af6305b16f0d28ae2aaeb86154fa91f144f036c2d5002a5a202b/certifi-2022.6.15-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/04/a2/d918dcd22354d8958fe113e1a3630137e0fc8b44859ade3063982eacd2a4/idna-3.3-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/6f/de/5be2e3eed8426f871b170663333a0f627fc2924cc386cd41be065e7ea870/urllib3-1.26.12-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/4c/d1/1b96dd69fa42f20b70701b5cd42a75dd5f0c7a24dc0abfef35cc146210dc/chardet-5.0.0-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/06/f9/b4002bbd1b6d4f3fa6566002d2a85aca33c2fc6f3cebc428616e05e4441c/syncthing2-2.4.4-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/d2/f4/274d1dbe96b41cf4e0efb70cbced278ffd61b5c7bb70338b62af94ccb25b/requests-2.28.2-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/ad/83/994bfca99e29f1bab66b9248e739360ee70b5aae0a5ee488cd776501edbc/charset_normalizer-3.1.0-cp311-cp311-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/71/4c/3db2b8021bd6f2f0ceb0e088d6b2d49147671f25832fb17970e9b583d742/certifi-2022.12.7-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl\
+	#  https://files.pythonhosted.org/packages/7b/f5/890a0baca17a61c1f92f72b81d3c31523c99bec609e60c292ea55b387ae8/urllib3-1.26.15-py2.py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/74/8f/8fc49109009e8d2169d94d72e6b1f4cd45c13d147ba7d6170fb41f22b08f/chardet-5.1.0-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/78/f9/690a8600b93c332de3ab4a344a4ac34f00c8f104917061f779db6a918ed6/pathlib-1.0.1-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/f2/90/0cefa94206e064075f5648a1e39754e3f54f8babdc2ad9eec956adb8a80e/CherryPy-18.8.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/61/55/9fb7c5a63fe0a797054034ce9aeacded2ca078690c63413ebfa06c47ee56/autocommand-2.2.1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/d3/87/8c5a471a82dfd1c82b4cb6605fcad90e1f0e938b14c0516da3504701a2b4/cheroot-8.6.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/d3/0f/c51780fb99b156e998a8bcbc418aea9179ccd301f8c2a8c1bb255c294af6/inflect-6.0.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/8f/e6/f92d21f915cee7acf1cfe3e0ec60b8e9888dcf40a9814e3838a87ba487d0/jaraco.classes-3.2.2-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/af/81/8d41ef589605e9d236f1794a1e872c2f1a40c18847c362b098acc70790a8/jaraco.collections-3.5.2-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/57/6e/d87cbedeb34c707b0df6607c5565f01998dca79ef2e0ec8690d94aa2cb96/jaraco.context-4.1.2-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/15/62/188af1d0a07f4161cbda3847d5504753451d8a1e0af1b9fa710cb6d766ae/jaraco.functools-3.5.1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/a8/84/c941e8477221dc80153a1691547ce6baace59ebab2f026719a5066b82864/jaraco.text-3.9.1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/0b/ff/1ad78678bee731ae5414ea5e97396b3f91de32186028daa614d322ac5a8b/more_itertools-8.14.0-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/b5/62/05203c39d21aa3171454a6c5391ea3b582a97bfb1bc1adad25628331a1cd/autocommand-2.2.2-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/3b/15/38d6b098fe874406b7de0fa6dec300e233f6d321ee74e8150e23438adf3f/cheroot-9.0.0-py2.py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/7e/87/3931f9438eb95902539b746c3846f2f16fe91d2093d5592ba84e164a5f8a/inflect-6.0.4-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/60/28/220d3ae0829171c11e50dded4355d17824d60895285631d7eb9dee0ab5e5/jaraco.classes-3.2.3-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/31/00/792a9fb87c1398c9a73b5fded60d170019ffd4c028e3fb6d257a375fc7fb/jaraco.collections-4.1.0-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/0a/de/3f889cd55e69f0a91b396f6799ca31ea0d6869cde338e7c79335699090cb/jaraco.context-4.3.0-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/ae/3f/40ab9df938e670e71a03cc80c383015cbb79db21fea4dd5f48713d965b14/jaraco.functools-3.6.0-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/0d/54/28e9bb5162b04eec50aafef92b096991cc87bf46cedcc375739514ea0124/jaraco.text-3.11.1-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/85/01/e2678ee4e0d7eed4fd6be9e5b043fff9d22d245d06c8c91def8ced664189/more_itertools-9.1.0-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/5e/d5/55f51adaa23038c8533cde602c79e314edd6525d1f7f6a15a1995abec91e/portend-3.1.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/ba/e4/a5df900ba517fbc909a353c374e6238acfb40dde6bc2a71072e2336156fe/pydantic-1.10.1-cp39-cp39-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/d5/50/54451e88e3da4616286029a3a17fc377de817f66a0f50e1faaee90161724/pytz-2022.2.1-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/4f/7e/872038fa04eeb69b7832a10ecc04f52d9950c41333cfaf2966fd5b06e65c/tempora-5.0.2-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/ed/d6/2afc375a8d55b8be879d6b4986d4f69f01115e795e36827fd3a40166028b/typing_extensions-4.3.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/6c/2a/268389776288f0f26c7272c70c36c96dcc0bdb88ab6216ea18e19df1fadd/zc.lockfile-2.0-py2.py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/fa/c2/3df79cd00e65678fce12e59e8c95378a992a93d7b9f9510d4f1f65df1936/pydantic-1.10.7-cp311-cp311-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/7f/99/ad6bd37e748257dd70d6f85d916cafe79c0b0f5e2e95b11f7fbc82bf3110/pytz-2023.3-py2.py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/86/fa/3f956372b84f977f8f4e9181d42fa2ba8459f8d8f056dcd2f91358571559/tempora-5.2.2-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/31/25/5abcd82372d3d4a3932e1fa8c3dbf9efac10cc7c0d16e78467460571b404/typing_extensions-4.5.0-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/a7/aa/47f00f32605177a945f3a1b36a1b2bb9a39260566541280fcee27cbff5cf/zc.lockfile-3.0.post1-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/9b/d4/d3c7d029de6287ff7bd048e628920d4336b4f8d82cfc00ff078bdbb212a3/Routes-2.5.1-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/b0/30/6cc0c95f0b59ad4b3b9163bff7cdcf793cc96fac64cf398ff26271f5cf5e/repoze.lru-0.7-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/99/c1/b0a72b566466b67b15a26561269e65f6a730cbd6c33f9f06f2a0c66dbeb4/simplejson-3.17.6-cp39-cp39-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/62/9c/e94a9982e9f31fc35cf46cdc543a6c2c26cb7174635b5fd25b0bbc6a7bc0/WebOb-1.8.7-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/e0/7a/9d0f52bf4923b2e410c7d6fda472c32d9b728284e89ec99074820226102f/configparser-5.3.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/60/ad/d6bc08f235b66c11bbb76df41b973ce93544a907cc0e23c726ea374eee79/zipfile2-0.0.12-py2.py3-none-any.whl
+	#  https://files.pythonhosted.org/packages/56/40/c58cd470a57af4affa87da639a9d9d339a0d5898d98faa608ac43f3e191e/simplejson-3.19.1-py3-none-any.whl \
+	#  https://files.pythonhosted.org/packages/62/9c/e94a9982e9f31fc35cf46cdc543a6c2c26cb7174635b5fd25b0bbc6a7bc0/WebOb-1.8.7-py2.py3-none-any.whl
 
 	mkdir -p var/lib/pulse2/clients/win/downloads/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/ \
-	 https://agents.siveo.net/3.0/win/downloads/python-3.9.9-amd64.exe \
-	 https://agents.siveo.net/3.0/win/downloads/libcurl4-7.52.1-1.tar.xz \
-	 https://agents.siveo.net/3.0/win/downloads/cwRsync_5.5.0_x86_Free.zip \
-	 https://agents.siveo.net/3.0/win/downloads/LGPO.zip \
-	 https://agents.siveo.net/3.0/win/downloads/OpenSSH-Win64.zip \
-	 https://agents.siveo.net/3.0/win/downloads/fusioninventory-agent_windows-x64_2.6.exe \
-	 https://agents.siveo.net/3.0/win/downloads/fusioninventory-agent_windows-x64_2.6-portable.exe \
-	 https://agents.siveo.net/3.0/win/downloads/tightvnc-2.8.79-gpl-setup-64bit.msi \
-	 https://agents.siveo.net/3.0/win/downloads/syncthing-windows-amd64-v1.23.4.zip \
-	 https://agents.siveo.net/3.0/win/downloads/bootstrap.js \
-	 https://agents.siveo.net/3.0/win/downloads/bootstrap.css \
-	 https://agents.siveo.net/3.0/win/downloads/jquery-3.5.1.js \
-	 https://agents.siveo.net/3.0/win/downloads/jquery-ui.css \
-	 https://agents.siveo.net/3.0/win/downloads/jquery-ui.js \
-	 https://agents.siveo.net/3.0/win/downloads/jquery.dataTables.css \
-	 https://agents.siveo.net/3.0/win/downloads/jquery.dataTables.js \
-	 https://agents.siveo.net/3.0/win/downloads/glyphicons-halflings-regular.woff \
-	 https://agents.siveo.net/3.0/win/downloads/style.css \
-	 https://agents.siveo.net/3.0/win/downloads/script.js \
-	 https://agents.siveo.net/3.0/win/downloads/UrBackup_Client_2.5.19.exe \
-	 https://agents.siveo.net/3.0/win/downloads/paexec_1_29.exe \
-	 https://agents.siveo.net/3.0/win/downloads/GLPI-Agent-1.4-x64.msi
+		https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe \
+		https://mirrors.kernel.org/sources.redhat.com/cygwin/x86_64/release/curl/libcurl4/libcurl4-8.0.1-1.tar.xz \
+		https://itefix.net/dl/free-software/cwrsync_6.2.8_x64_free.zip \
+		https://download.microsoft.com/download/8/5/C/85C25433-A1B0-4FFA-9429-7E023E7DA8D8/LGPO.zip \
+		https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.2.2.0p1-Beta/OpenSSH-Win64.zip \
+		https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.6/fusioninventory-agent_windows-x64_2.6.exe \
+		https://www.tightvnc.com/download/2.8.79/tightvnc-2.8.79-gpl-setup-64bit.msi \
+		https://github.com/syncthing/syncthing/releases/download/v1.23.4/syncthing-windows-amd64-v1.23.4.zip \
+		https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.css \
+		https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js \
+		https://code.jquery.com/jquery-3.6.4.js \
+		https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css \
+		https://code.jquery.com/ui/1.13.1/jquery-ui.js \
+		http://cdn.datatables.net/1.13.4/css/jquery.dataTables.css \
+		http://cdn.datatables.net/1.13.4/js/jquery.dataTables.js \
+		https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
+		https://agents.siveo.net/win/downloads/style.css \
+		https://agents.siveo.net/win/downloads/script.js \
+		https://hndl.urbackup.org/Client/2.5.19/UrBackup%20Client%202.5.19.exe \
+		https://www.poweradmin.com/paexec/paexec_1_29.exe
 
 	mkdir -p var/lib/pulse2/clients/win/downloads/python_modules/
-	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pypiwin32-223-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces-0.11.0-cp39-cp39-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/slixmpp-1.8.2.tar.gz \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pyasn1-0.4.8-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pyasn1_modules-0.2.8-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pycares-4.2.2-cp39-cp39-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/cffi-1.15.1-cp39-cp39-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pycparser-2.21-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/WMI-1.5.1-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pycurl-7.45.1-cp39-cp39-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/lxml-4.9.2-cp311-cp311-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pycryptodome-3.15.0-cp35-abi3-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/croniter-1.3.5-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/six-1.16.0-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/psutil-5.9.1-cp39-cp39-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6-6.3.1-cp37-abi3-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6_sip-13.4.0-cp39-cp39-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6_Qt6-6.3.1-py3-none-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/sip-6.6.2-cp37-abi3-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/packaging-21.3-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/ply-3.11-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/toml-0.10.2-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pyparsing-3.0.9-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pysftp-0.2.9.tar.gz \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/paramiko-2.11.0-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/bcrypt-4.0.0-cp36-abi3-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/cryptography-37.0.4-cp36-abi3-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/syncthing-2.4.2.tar.gz \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/requests-2.28.1-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/charset_normalizer-2.1.1-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/certifi-2022.6.15-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/idna-3.3-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/urllib3-1.26.12-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/chardet-5.0.0-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pathlib-1.0.1-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/CherryPy-18.8.0-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/autocommand-2.2.1-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/cheroot-8.6.0-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/inflect-6.0.0-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/jaraco.classes-3.2.2-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/jaraco.collections-3.5.2-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/jaraco.context-4.1.2-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/jaraco.functools-3.5.1-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/jaraco.text-3.9.1-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/more_itertools-8.14.0-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/portend-3.1.0-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pydantic-1.10.1-cp39-cp39-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/pytz-2022.2.1-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/tempora-5.0.2-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/typing_extensions-4.3.0-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/zc.lockfile-2.0-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/Routes-2.5.1-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/repoze.lru-0.7-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/simplejson-3.17.6-cp39-cp39-win_amd64.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/WebOb-1.8.7-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/configparser-5.3.0-py3-none-any.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/zipfile2-0.0.12-py2.py3-none-any.whl
-
+     wget --no-check-certificate -P /var/www/agents/3.0/win/downloads/python_modules/ \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces-0.11.0.tar.gz \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl \https://agents.siveo.net/3.0/win/downloads/python_modules/slixmpp-1.8.3.tar.gz \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pyasn1-0.5.0-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pyasn1_modules-0.3.0-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pycares-4.3.0-cp311-cp311-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/cffi-1.15.1-cp311-cp311-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pycparser-2.21-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/WMI-1.5.1-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pycurl-7.45.1-cp39-cp39-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/lxml-4.9.2-cp311-cp311-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pycryptodome-3.17.tar.gz \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/croniter-1.3.14-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/six-1.16.0-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/psutil-5.9.5.tar.gz  \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6-6.5.0-cp37-abi3-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6_sip-13.5.1-cp311-cp311-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6_Qt6-6.5.0-py3-none-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/sip-6.7.9-cp37-abi3-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/packaging-23.1-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/ply-3.11-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/toml-0.10.2-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pyparsing-3.0.9-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pysftp-0.2.9.tar.gz \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/paramiko-3.1.0-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/PyNaCl-1.5.0.tar.gz \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/bcrypt-4.0.1.tar.gz \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/cryptography-40.0.2.tar.gz \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/syncthing2-2.4.4-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/requests-2.28.2-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/charset_normalizer-3.1.0-cp311-cp311-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/certifi-2022.12.7-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/idna-3.4-py3-none-any.whl\
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/urllib3-1.26.15-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/chardet-5.1.0-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pathlib-1.0.1-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/CherryPy-18.8.0-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/autocommand-2.2.2-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/cheroot-9.0.0-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/inflect-6.0.4-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/jaraco.classes-3.2.3-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/jaraco.collections-4.1.0-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/jaraco.context-4.3.0-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/jaraco.functools-3.6.0-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/jaraco.text-3.11.1-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/more_itertools-9.1.0-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/portend-3.1.0-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pydantic-1.10.7-cp311-cp311-win_amd64.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/pytz-2023.3-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/tempora-5.2.2-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/typing_extensions-4.5.0-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/zc.lockfile-3.0.post1-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/Routes-2.5.1-py2.py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/repoze.lru-0.7-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/simplejson-3.19.1-py3-none-any.whl \
+		 https://agents.siveo.net/3.0/win/downloads/python_modules/WebOb-1.8.7-py2.py3-none-any.whl
+	 
 	#Linux Modules
 	# Original locations
 	# wget --no-check-certificate -P var/lib/pulse2/clients/lin/downloads/ \

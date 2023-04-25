@@ -122,7 +122,9 @@ Source306:	https://agents.siveo.net/3.0/mac/downloads/jquery.dataTables.js
 Source307:	https://agents.siveo.net/3.0/mac/downloads/glyphicons-halflings-regular.woff
 Source308:	https://agents.siveo.net/3.0/mac/downloads/style.css
 Source309:	https://agents.siveo.net/3.0/mac/downloads/script.js
-
+Source310:  https://agents.siveo.net/3.0/mac/downloads/syncthing-macos-amd64-v1.23.4.zip
+Source311:  https://agents.siveo.net/3.0/mac/downloads/VineServer-5.3.1.dmg
+Source312:  https://agents.siveo.net/3.0/mac/downloads/4.0.15.tar.gz
 License:	MIT
 Group:		Development/Java
 Url:		http://www.siveo.org/
@@ -160,7 +162,7 @@ cp %SOURCE200 %SOURCE201 %SOURCE202 %SOURCE203 %SOURCE204 %SOURCE205 %SOURCE206 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/
-cp %SOURCE300 %SOURCE301 %SOURCE302 %SOURCE303 %SOURCE304 %SOURCE305 %SOURCE306 %SOURCE307 %SOURCE308 %SOURCE309 %buildroot/var/lib/pulse2/clients/mac/downloads/
+cp %SOURCE300 %SOURCE301 %SOURCE302 %SOURCE303 %SOURCE304 %SOURCE305 %SOURCE306 %SOURCE307 %SOURCE308 %SOURCE309 %SOURCE310 %SOURCE311 %SOURCE312 %buildroot/var/lib/pulse2/clients/mac/downloads/
 mkdir -p %buildroot/var/lib/pulse2/clients/mac/downloads/python_modules/
 
 
