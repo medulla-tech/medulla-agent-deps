@@ -113,7 +113,6 @@ var/lib/pulse2/clients/win/downloads/bootstrap.css
 var/lib/pulse2/clients/win/downloads/script.js
 var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.6.exe
 var/lib/pulse2/clients/win/downloads/jquery-3.5.1.js
-var/lib/pulse2/clients/win/downloads/UrBackupClient-Windows-2.5.19.exe
 var/lib/pulse2/clients/win/downloads/paexec_1_29.exe
 var/lib/pulse2/clients/win/downloads/python_modules/jaraco.collections-3.5.2-py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/ply-3.11-py2.py3-none-any.whl

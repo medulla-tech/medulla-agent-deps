@@ -113,7 +113,7 @@ build:
 	 https://agents.siveo.net/3.0/win/downloads/glyphicons-halflings-regular.woff \
 	 https://agents.siveo.net/3.0/win/downloads/style.css \
 	 https://agents.siveo.net/3.0/win/downloads/script.js \
-	 https://agents.siveo.net/3.0/win/downloads/UrBackupClient-Windows-2.5.19.exe \
+	 https://agents.siveo.net/3.0/win/downloads/UrBackup_Client_2.5.19.exe \
 	 https://agents.siveo.net/3.0/win/downloads/paexec_1_29.exe \
 	 https://agents.siveo.net/3.0/win/downloads/GLPI-Agent-1.4-x64.msi
 
@@ -211,7 +211,7 @@ build:
 	 https://agents.siveo.net/3.0/lin/downloads/glyphicons-halflings-regular.woff \
 	 https://agents.siveo.net/3.0/lin/downloads/style.css \
 	 https://agents.siveo.net/3.0/lin/downloads/script.js \
-	 https://agents.siveo.net/3.0/lin/downloads/UrBackupClient-Linux-2.5.19.sh
+	 https://agents.siveo.net/3.0/lin/downloads/UrBackup_Client_Linux_2.5.19.sh
 	
 	#Mac Modules
 	# TBD

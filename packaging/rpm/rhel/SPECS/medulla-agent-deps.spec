@@ -30,7 +30,7 @@ Source15:	https://agents.siveo.net/3.0/win/downloads/jquery.dataTables.js
 Source16:	https://agents.siveo.net/3.0/win/downloads/glyphicons-halflings-regular.woff
 Source17:	https://agents.siveo.net/3.0/win/downloads/style.css
 Source18:	https://agents.siveo.net/3.0/win/downloads/script.js
-Source19:	https://agents.siveo.net/3.0/win/downloads/UrBackupClient-Windows-2.5.19.exe
+Source19:	https://agents.siveo.net/3.0/win/downloads/UrBackup_Client_2.5.19.exe
 Source20:   https://agents.siveo.net/3.0/win/downloads/paexec_1_29.exe
 Source21:   https://agents.siveo.net/3.0/win/downloads/fusioninventory-agent_windows-x64_2.6-portable.exe
 
@@ -109,7 +109,7 @@ Source206:	https://agents.siveo.net/3.0/lin/downloads/jquery.dataTables.js
 Source207:	https://agents.siveo.net/3.0/lin/downloads/glyphicons-halflings-regular.woff
 Source208:	https://agents.siveo.net/3.0/lin/downloads/style.css
 Source209:	https://agents.siveo.net/3.0/lin/downloads/script.js
-Source210:	https://agents.siveo.net/3.0/lin/downloads/UrBackupClient-Linux-2.5.19.sh
+Source210:	https://agents.siveo.net/3.0/lin/downloads/UrBackup_Client_Linux_2.5.19.sh
 
 
 Source300:	https://agents.siveo.net/3.0/mac/downloads/bootstrap.js
