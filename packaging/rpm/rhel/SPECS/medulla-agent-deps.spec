@@ -14,7 +14,7 @@ Release:        0.%git.1%{?dist}
 Source0:	%{name}-%{version}.tar.gz
 Source1:	https://agents.siveo.net/3.0/win/downloads/python-3.11.3-amd64.exe
 Source2:	https://agents.siveo.net/3.0/win/downloads/libcurl4-8.0.1-1.tar.xz
-Source3:	https://agents.siveo.net/3.0/win/downloads/cwRsync_5.5.0_x86_Free.zip
+Source3:	https://agents.siveo.net/3.0/win/downloads/cwrsync_6.2.8_x64_free.zip
 Source4:	https://agents.siveo.net/3.0/win/downloads/LGPO.zip
 Source5:	https://agents.siveo.net/3.0/win/downloads/OpenSSH-Win64.zip
 Source6:	https://agents.siveo.net/3.0/win/downloads/fusioninventory-agent_windows-x64_2.6.exe
