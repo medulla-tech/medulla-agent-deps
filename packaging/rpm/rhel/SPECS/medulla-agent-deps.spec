@@ -38,7 +38,7 @@ Source100:  https://agents.siveo.net/3.0/win/downloads/python_modules/pypiwin32-
 Source101:  https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-304-cp39-cp39-win_amd64.whl
 Source102:  https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces-0.11.0-cp39-cp39-win_amd64.whl
 Source103:  https://agents.siveo.net/3.0/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl
-Source104:  https://agents.siveo.net/3.0/win/downloads/python_modules/slixmpp-1.8.2.tar.gz
+Source104:  https://agents.siveo.net/3.0/win/downloads/python_modules/slixmpp-1.8.4.tar.gz
 Source105:  https://agents.siveo.net/3.0/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl
 Source106:  https://agents.siveo.net/3.0/win/downloads/python_modules/pyasn1-0.4.8-py2.py3-none-any.whl
 Source107:  https://agents.siveo.net/3.0/win/downloads/python_modules/pyasn1_modules-0.2.8-py2.py3-none-any.whl

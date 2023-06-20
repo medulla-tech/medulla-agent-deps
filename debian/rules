@@ -33,7 +33,7 @@ build:
 	#  https://files.pythonhosted.org/packages/7e/9e/ad6b1ae2a5ad1066dc509350e0fbf74d8d50251a51e420a2a8feaa0cecbd/pywin32-306-cp311-cp311-win_amd64.whl \
 	#  https://files.pythonhosted.org/packages/a6/91/86a6eac449ddfae239e93ffc1918cf33fd9bab35c04d1e963b311e347a73/netifaces-0.11.0.tar.gz \
 	#  https://files.pythonhosted.org/packages/2c/c3/912cf11dab12ef61841242f588692d940ad1068358bff14d322267707d36/comtypes-1.1.14-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/6b/5a/a544c9279d49f497dd602548e3d70934de1809f9522d2ed36dbf5ae416ad/slixmpp-1.8.3.tar.gz \
+	#  https://files.pythonhosted.org/packages/a2/b4/d7b98fa23b42c97ba32abc6a439a729c814d57b098c74327ab2a60c9cfc9/slixmpp-1.8.4.tar.gz \
 	#  https://files.pythonhosted.org/packages/ab/72/991ee33a517df69c6cd6f3486cfe9b6329557cb55acaa8cefac33c2aa4d2/aiodns-3.0.0-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/14/e5/b56a725cbde139aa960c26a1a3ca4d4af437282e20b5314ee6a3501e7dfc/pyasn1-0.5.0-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/cd/8e/bea464350e1b8c6ed0da3a312659cb648804a08af6cacc6435867f74f8bd/pyasn1_modules-0.3.0-py2.py3-none-any.whl \
@@ -120,7 +120,7 @@ build:
 		https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces-0.11.0.tar.gz \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl \
-		https://agents.siveo.net/3.0/win/downloads/python_modules/slixmpp-1.8.3.tar.gz \
+		https://agents.siveo.net/3.0/win/downloads/python_modules/slixmpp-1.8.4.tar.gz \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/pyasn1-0.5.0-py2.py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/pyasn1_modules-0.3.0-py2.py3-none-any.whl \
@@ -270,7 +270,7 @@ build:
 	mkdir -p var/lib/pulse2/clients/mac/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/python_modules/ \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/netifaces-0.11.0.tar.gz \
-	 https://agents.siveo.net/3.0/mac/downloads/python_modules/slixmpp-1.8.3.tar.gz \
+	 https://agents.siveo.net/3.0/mac/downloads/python_modules/slixmpp-1.8.4.tar.gz \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/pycurl-7.45.2.tar.gz \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/lxml-4.9.2-pp39-pypy39_pp73-macosx_10_15_x86_64.whl \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/pycryptodome-3.17.tar.gz \

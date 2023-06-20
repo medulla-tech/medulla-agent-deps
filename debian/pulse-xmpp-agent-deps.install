@@ -32,7 +32,7 @@ var/lib/pulse2/clients/mac/downloads/python_modules/chardet-5.1.0-py3-none-any.w
 var/lib/pulse2/clients/mac/downloads/python_modules/lxml-4.9.2-pp39-pypy39_pp73-macosx_10_15_x86_64.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/plyvel-1.5.0.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/pysftp-0.2.9.tar.gz
-var/lib/pulse2/clients/mac/downloads/python_modules/slixmpp-1.8.3.tar.gz
+var/lib/pulse2/clients/mac/downloads/python_modules/slixmpp-1.8.4.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/croniter-1.3.14-py2.py3-none-any.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/netifaces-0.11.0.tar.gz
 var/lib/pulse2/clients/mac/downloads/python_modules/psutil-5.9.5.tar.gz
@@ -56,7 +56,7 @@ var/lib/pulse2/clients/win/downloads/paexec_1_29.exe
 var/lib/pulse2/clients/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
 var/lib/pulse2/clients/win/downloads/python_modules/netifaces-0.11.0.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl
-var/lib/pulse2/clients/win/downloads/python_modules/slixmpp-1.8.3.tar.gz
+var/lib/pulse2/clients/win/downloads/python_modules/slixmpp-1.8.4.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/pyasn1-0.5.0-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/pyasn1_modules-0.3.0-py2.py3-none-any.whl
