@@ -58,7 +58,7 @@ build:
 	#  https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/36/60/45f30390a38b1f92e0a8cf4de178cd7c2bc3f874c85430e40ccf99df8fe7/pysftp-0.2.9.tar.gz \
 	#  https://files.pythonhosted.org/packages/56/7c/9dd558ec0869fcecb661765d0a2504978dbfe85de24cbcccc847aa9b58e4/paramiko-3.1.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/a7/22/27582568be639dfe22ddb3902225f91f2f17ceff88ce80e4db396c8986da/PyNaCl-1.5.0.tar.gz \
+	#  https://files.pythonhosted.org/packages/5e/22/d3db169895faaf3e2eda892f005f433a62db2decbcfbc2f61e6517adfa87/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl
 	#  https://files.pythonhosted.org/packages/8c/ae/3af7d006aacf513975fd1948a6b4d6f8b4a307f8a244e1a3d3774b297aad/bcrypt-4.0.1.tar.gz \
 	#  https://files.pythonhosted.org/packages/f7/80/04cc7637238b78f8e7354900817135c5a23cf66dfb3f3a216c6d630d6833/cryptography-40.0.2.tar.gz \
 	#  https://files.pythonhosted.org/packages/09/d4/4f05f5d16a4863b30ba96c23b23e942da8889abfa1cdbabf2a0df12a4532/ecdsa-0.18.0-py2.py3-none-any.whl \
@@ -145,7 +145,7 @@ build:
 		https://agents.siveo.net/3.0/win/downloads/python_modules/pyparsing-3.0.9-py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/pysftp-0.2.9.tar.gz \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/paramiko-3.1.0-py3-none-any.whl \
-		https://agents.siveo.net/3.0/win/downloads/python_modules/PyNaCl-1.5.0.tar.gz \
+		https://agents.siveo.net/3.0/win/downloads/python_modules/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/bcrypt-4.0.1.tar.gz \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/cryptography-40.0.2.tar.gz \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-any.whl \
@@ -249,6 +249,7 @@ build:
         #  https://files.pythonhosted.org/packages/71/4c/3db2b8021bd6f2f0ceb0e088d6b2d49147671f25832fb17970e9b583d742/certifi-2022.12.7-py3-none-any.whl
         #  https://files.pythonhosted.org/packages/74/8f/8fc49109009e8d2169d94d72e6b1f4cd45c13d147ba7d6170fb41f22b08f/chardet-5.1.0-py3-none-any.whl
         #  https://files.pythonhosted.org/packages/78/f9/690a8600b93c332de3ab4a344a4ac34f00c8f104917061f779db6a918ed6/pathlib-1.0.1-py3-none-any.whl
+	#  https://files.pythonhosted.org/packages/ce/75/0b8ede18506041c0bf23ac4d8e2971b4161cd6ce630b177d0a08eb0d8857/PyNaCl-1.5.0-cp36-abi3-macosx_10_10_universal2.whl
 
 	mkdir -p var/lib/pulse2/clients/mac/downloads/
 	wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/ \
@@ -287,7 +288,8 @@ build:
          https://agents.siveo.net/3.0/mac/downloads/python_modules/idna-3.4-py3-none-any.whl \
          https://agents.siveo.net/3.0/mac/downloads/python_modules/certifi-2022.12.7-py3-none-any.whl \
          https://agents.siveo.net/3.0/mac/downloads/python_modules/chardet-5.1.0-py3-none-any.whl \
-         https://agents.siveo.net/3.0/mac/downloads/python_modules/pathlib-1.0.1-py3-none-any.whl
+         https://agents.siveo.net/3.0/mac/downloads/python_modules/pathlib-1.0.1-py3-none-any.whl \
+	 https://agents.siveo.net/3.0/mac/downloads/python_modules/PyNaCl-1.5.0-cp36-abi3-macosx_10_10_universal2.whl
 
 	rm -frv $(DESTDIR)/tmp
 clean:
