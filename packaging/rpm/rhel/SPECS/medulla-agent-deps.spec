@@ -46,9 +46,9 @@ Source108:  https://agents.siveo.net/3.0/win/downloads/python_modules/pycares-4.
 Source109:  https://agents.siveo.net/3.0/win/downloads/python_modules/cffi-1.15.1-cp39-cp39-win_amd64.whl
 Source110:  https://agents.siveo.net/3.0/win/downloads/python_modules/pycparser-2.21-py2.py3-none-any.whl
 Source111:  https://agents.siveo.net/3.0/win/downloads/python_modules/WMI-1.5.1-py2.py3-none-any.whl
-Source112:  https://agents.siveo.net/3.0/win/downloads/python_modules/pycurl-7.45.1-cp39-cp39-win_amd64.whl
+Source112:  https://agents.siveo.net/3.0/win/downloads/python_modules/pycurl-7.45.1-cp311-cp311-win_amd64.wh
 Source113:  https://agents.siveo.net/3.0/win/downloads/python_modules/lxml-4.9.1-cp39-cp39-win_amd64.whl
-Source114:  https://agents.siveo.net/3.0/win/downloads/python_modules/pycryptodome-3.15.0-cp35-abi3-win_amd64.whl
+Source114:  https://agents.siveo.net/3.0/win/downloads/python_modules/pycryptodome-3.18.0-cp35-abi3-win_amd64.whl
 Source115:  https://agents.siveo.net/3.0/win/downloads/python_modules/croniter-1.3.5-py2.py3-none-any.whl
 Source116:  https://agents.siveo.net/3.0/win/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl
 Source117:  https://agents.siveo.net/3.0/win/downloads/python_modules/six-1.16.0-py2.py3-none-any.whl
@@ -61,11 +61,10 @@ Source123:  https://agents.siveo.net/3.0/win/downloads/python_modules/packaging-
 Source124:  https://agents.siveo.net/3.0/win/downloads/python_modules/ply-3.11-py2.py3-none-any.whl
 Source125:  https://agents.siveo.net/3.0/win/downloads/python_modules/toml-0.10.2-py2.py3-none-any.whl
 Source126:  https://agents.siveo.net/3.0/win/downloads/python_modules/pyparsing-3.0.9-py3-none-any.whl
-Source127:  https://agents.siveo.net/3.0/win/downloads/python_modules/pysftp-0.2.9.tar.gz
 Source128:  https://agents.siveo.net/3.0/win/downloads/python_modules/paramiko-2.11.0-py2.py3-none-any.whl
 Source129:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl
-Source130:  https://agents.siveo.net/3.0/win/downloads/python_modules/bcrypt-4.0.0-cp36-abi3-win_amd64.whl
-Source131:  https://agents.siveo.net/3.0/win/downloads/python_modules/cryptography-37.0.4-cp36-abi3-win_amd64.whl
+Source130:  https://agents.siveo.net/3.0/win/downloads/python_modules/bcrypt-4.0.1-cp36-abi3-win_amd64.whl
+Source131:  https://agents.siveo.net/3.0/win/downloads/python_modules/cryptography-41.0.2-cp37-abi3-win_amd64.whl
 Source132:  https://agents.siveo.net/3.0/win/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-any.whl
 Source133:  https://agents.siveo.net/3.0/win/downloads/python_modules/syncthing-2.4.2.tar.gz
 Source134:  https://agents.siveo.net/3.0/win/downloads/python_modules/requests-2.28.1-py3-none-any.whl
@@ -155,7 +154,7 @@ mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
 cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE17 %SOURCE18 %SOURCE19 %SOURCE20 %SOURCE21 %buildroot/var/lib/pulse2/clients/win/downloads/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE127 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %SOURCE155 %SOURCE156 %SOURCE157 %SOURCE158 %SOURCE159 %SOURCE160 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
+cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %SOURCE155 %SOURCE156 %SOURCE157 %SOURCE158 %SOURCE159 %SOURCE160 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/
 cp %SOURCE200 %SOURCE201 %SOURCE202 %SOURCE203 %SOURCE204 %SOURCE205 %SOURCE206 %SOURCE207 %SOURCE208 %SOURCE209 %SOURCE210 %buildroot/var/lib/pulse2/clients/linux/downloads/

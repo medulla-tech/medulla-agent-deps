@@ -41,9 +41,9 @@ build:
 	#  https://files.pythonhosted.org/packages/43/a0/cc7370ef72b6ee586369bacd3961089ab3d94ae712febf07a244f1448ffd/cffi-1.15.1-cp311-cp311-win_amd64.whl \
 	#  https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/ee/b9/a80d1ed4d115dac8e2ac08d16af046a77ab58e3d186e22395bf2add24090/WMI-1.5.1-py2.py3-none-any.whl \
-	#  https://download.lfd.uci.edu/pythonlibs/archived/pycurl-7.45.1-cp39-cp39-win_amd64.whl \
+	#  https://download.lfd.uci.edu/pythonlibs/archived/pycurl-7.45.1-cp311-cp311-win_amd64.whl \
 	#  https://files.pythonhosted.org/packages/9e/86/e1f135e123344e32dd9bfcbf420dcc2566fa3894fda78b27f981e26c170d/lxml-4.9.2-cp311-cp311-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/b8/2e/cf9cfd1ae6429381d3d9c14c8df79d91ae163929972f245a76058ea9d37d/pycryptodome-3.17.tar.gz \
+	#  https://files.pythonhosted.org/packages/3f/a1/72ad8fbeb2630e74fa89622ab24ec0ce46dc93dc172156f1a112eb76c014/pycryptodome-3.18.0-cp35-abi3-win_amd64.whl
 	#  https://files.pythonhosted.org/packages/e7/f4/afbf09131612dad1737c8f9b0f4f494153f4099e114904bd6b94036e588f/croniter-1.3.14-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl \
@@ -56,11 +56,10 @@ build:
 	#  https://files.pythonhosted.org/packages/a3/58/35da89ee790598a0700ea49b2a66594140f44dec458c07e8e3d4979137fc/ply-3.11-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/36/60/45f30390a38b1f92e0a8cf4de178cd7c2bc3f874c85430e40ccf99df8fe7/pysftp-0.2.9.tar.gz \
 	#  https://files.pythonhosted.org/packages/56/7c/9dd558ec0869fcecb661765d0a2504978dbfe85de24cbcccc847aa9b58e4/paramiko-3.1.0-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/5e/22/d3db169895faaf3e2eda892f005f433a62db2decbcfbc2f61e6517adfa87/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl
-	#  https://files.pythonhosted.org/packages/8c/ae/3af7d006aacf513975fd1948a6b4d6f8b4a307f8a244e1a3d3774b297aad/bcrypt-4.0.1.tar.gz \
-	#  https://files.pythonhosted.org/packages/f7/80/04cc7637238b78f8e7354900817135c5a23cf66dfb3f3a216c6d630d6833/cryptography-40.0.2.tar.gz \
+	#  https://files.pythonhosted.org/packages/46/81/d8c22cd7e5e1c6a7d48e41a1d1d46c92f17dae70a54d9814f746e6027dec/bcrypt-4.0.1-cp36-abi3-win_amd64.whl \
+	#  https://files.pythonhosted.org/packages/6f/14/fa7f51806a6204a8534728239c3d5b7f5fee219ccf48ca089d03b72f7573/cryptography-41.0.2-cp37-abi3-win_amd64.whl \  
 	#  https://files.pythonhosted.org/packages/09/d4/4f05f5d16a4863b30ba96c23b23e942da8889abfa1cdbabf2a0df12a4532/ecdsa-0.18.0-py2.py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/06/f9/b4002bbd1b6d4f3fa6566002d2a85aca33c2fc6f3cebc428616e05e4441c/syncthing2-2.4.4-py3-none-any.whl \
 	#  https://files.pythonhosted.org/packages/d2/f4/274d1dbe96b41cf4e0efb70cbced278ffd61b5c7bb70338b62af94ccb25b/requests-2.28.2-py3-none-any.whl \
@@ -128,9 +127,9 @@ build:
 		https://agents.siveo.net/3.0/win/downloads/python_modules/cffi-1.15.1-cp311-cp311-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/pycparser-2.21-py2.py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/WMI-1.5.1-py2.py3-none-any.whl \
-		https://agents.siveo.net/3.0/win/downloads/python_modules/pycurl-7.45.2.tar.gz \
+		https://agents.siveo.net/3.0/win/downloads/python_modules/pycurl-7.45.1-cp311-cp311-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/lxml-4.9.2-cp311-cp311-win_amd64.whl \
-		https://agents.siveo.net/3.0/win/downloads/python_modules/pycryptodome-3.17.tar.gz \
+		https://agents.siveo.net/3.0/win/downloads/python_modules/pycryptodome-3.18.0-cp35-abi3-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/croniter-1.3.14-py2.py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/six-1.16.0-py2.py3-none-any.whl \
@@ -143,11 +142,10 @@ build:
 		https://agents.siveo.net/3.0/win/downloads/python_modules/ply-3.11-py2.py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/toml-0.10.2-py2.py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/pyparsing-3.0.9-py3-none-any.whl \
-		https://agents.siveo.net/3.0/win/downloads/python_modules/pysftp-0.2.9.tar.gz \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/paramiko-3.1.0-py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl \
-		https://agents.siveo.net/3.0/win/downloads/python_modules/bcrypt-4.0.1.tar.gz \
-		https://agents.siveo.net/3.0/win/downloads/python_modules/cryptography-40.0.2.tar.gz \
+		https://agents.siveo.net/3.0/win/downloads/python_modules/bcrypt-4.0.1-cp36-abi3-win32.whl \
+		https://agents.siveo.net/3.0/win/downloads/python_modules/cryptography-41.0.2-cp37-abi3-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/syncthing2-2.4.4-py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/requests-2.28.2-py3-none-any.whl \
@@ -238,7 +236,6 @@ build:
 	#  https://pypi.python.org/packages/58/2a/17d003f2a9a0188cf9365d63b3351c6522b7d83996b70270c65c789e35b9/croniter-0.3.16.tar.gz \
 	#  https://pypi.python.org/packages/e2/e1/600326635f97fee89bf8426fef14c5c29f4849c79f68fd79f433d8c1bd96/psutil-5.4.3.tar.gz \
 	#  https://files.pythonhosted.org/packages/4c/14/3408e92e28f4a38f51573e5ba83017fde8e3ae70522555ee2b19347e0f6e/plyvel-1.2.0.tar.gz \
-	#  https://files.pythonhosted.org/packages/36/60/45f30390a38b1f92e0a8cf4de178cd7c2bc3f874c85430e40ccf99df8fe7/pysftp-0.2.9.tar.gz \
 	#  https://files.pythonhosted.org/packages/95/a8/72f860ff71bc260a4c815f50c65e04d69b9c5a3e51ff82afe3cd6757faa9/paramiko-1.18.5-py2.py3-none-any.whl \
         #  https://files.pythonhosted.org/packages/09/d4/4f05f5d16a4863b30ba96c23b23e942da8889abfa1cdbabf2a0df12a4532/ecdsa-0.18.0-py2.py3-none-any.whl
 	#  https://files.pythonhosted.org/packages/06/f9/b4002bbd1b6d4f3fa6566002d2a85aca33c2fc6f3cebc428616e05e4441c/syncthing2-2.4.4-py3-none-any.whl
@@ -274,13 +271,12 @@ build:
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/slixmpp-1.8.4.tar.gz \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/pycurl-7.45.2.tar.gz \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/lxml-4.9.2-pp39-pypy39_pp73-macosx_10_15_x86_64.whl \
-	 https://agents.siveo.net/3.0/mac/downloads/python_modules/pycryptodome-3.17.tar.gz \
+	 https://agents.siveo.net/3.0/mac/downloads/python_modules/pycryptodome-3.18.0-cp35-abi3-macosx_10_9_x86_64.whl \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/six-1.16.0-py2.py3-none-any.whl \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/croniter-1.3.14-py2.py3-none-any.whl \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/psutil-5.9.5.tar.gz \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/plyvel-1.5.0.tar.gz \
-	 https://agents.siveo.net/3.0/mac/downloads/python_modules/pysftp-0.2.9.tar.gz \
          https://agents.siveo.net/3.0/mac/downloads/python_modules/paramiko-3.1.0-py3-none-any.whl \
          https://agents.siveo.net/3.0/mac/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-any.whl \
          https://agents.siveo.net/3.0/mac/downloads/python_modules/syncthing2-2.4.4-py3-none-any.whl \
