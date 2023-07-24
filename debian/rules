@@ -144,7 +144,7 @@ build:
 		https://agents.siveo.net/3.0/win/downloads/python_modules/pyparsing-3.0.9-py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/paramiko-3.1.0-py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl \
-		https://agents.siveo.net/3.0/win/downloads/python_modules/bcrypt-4.0.1-cp36-abi3-win32.whl \
+		https://agents.siveo.net/3.0/win/downloads/python_modules/bcrypt-4.0.1-cp36-abi3-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/cryptography-41.0.2-cp37-abi3-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/syncthing2-2.4.4-py3-none-any.whl \
