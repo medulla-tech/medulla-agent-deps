@@ -94,7 +94,7 @@ Source157:  https://agents.siveo.net/3.0/win/downloads/python_modules/Routes-2.5
 Source158:  https://agents.siveo.net/3.0/win/downloads/python_modules/repoze.lru-0.7-py3-none-any.whl
 Source159:  https://agents.siveo.net/3.0/win/downloads/python_modules/simplejson-3.17.6-cp39-cp39-win_amd64.whl
 Source160:  https://agents.siveo.net/3.0/win/downloads/python_modules/WebOb-1.8.7-py2.py3-none-any.whl
-Source161:  https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
+Source161:  https://agents.siveo.net/3.0/win/downloads/python_modules/pypiwin32-223-py3-none-any.whl
 
 Source200:	https://agents.siveo.net/3.0/lin/downloads/bootstrap.js
 Source201:	https://agents.siveo.net/3.0/lin/downloads/bootstrap.css
