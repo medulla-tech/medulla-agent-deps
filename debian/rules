@@ -275,7 +275,7 @@ build:
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/six-1.16.0-py2.py3-none-any.whl \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/croniter-1.3.14-py2.py3-none-any.whl \
-	 https://agents.siveo.net/3.0/mac/downloads/python_modules/psutil-5.9.5.tar.gz \
+	 https://agents.siveo.net/3.0/mac/downloads/python_modules/psutil-5.9.5-cp36-abi3-macosx_10_9_x86_64.whl \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/plyvel-1.5.0.tar.gz \
          https://agents.siveo.net/3.0/mac/downloads/python_modules/paramiko-3.1.0-py3-none-any.whl \
          https://agents.siveo.net/3.0/mac/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-any.whl \
