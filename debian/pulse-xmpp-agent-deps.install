@@ -53,7 +53,7 @@ var/lib/pulse2/clients/win/downloads/LGPO.zip
 var/lib/pulse2/clients/win/downloads/UrBackup_Client_2.5.19.exe
 var/lib/pulse2/clients/win/downloads/paexec_1_29.exe
 var/lib/pulse2/clients/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
-var/lib/pulse2/clients/win/downloads/python_modules/netifaces-0.11.0.tar.gz
+var/lib/pulse2/clients/win/downloads/python_modules/netifaces-0.11.0-cp311-cp311-win_amd64.whl
 var/lib/pulse2/clients/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/slixmpp-1.8.4.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl
