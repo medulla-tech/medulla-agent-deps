@@ -112,6 +112,7 @@ var/lib/pulse2/clients/win/downloads/python_modules/repoze.lru-0.7-py3-none-any.
 var/lib/pulse2/clients/win/downloads/python_modules/simplejson-3.19.1-py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/WebOb-1.8.7-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/pypiwin32-223-py3-none-any.whl
+var/lib/pulse2/clients/win/downloads/python_modules/lmdb-1.4.1-cp311-cp311-win_amd64.whl
 var/lib/pulse2/clients/win/downloads/bootstrap.js
 var/lib/pulse2/clients/win/downloads/bootstrap.css
 var/lib/pulse2/clients/win/downloads/jquery-3.6.4.js
