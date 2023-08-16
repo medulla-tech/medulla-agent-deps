@@ -36,7 +36,7 @@ Source21:   https://agents.siveo.net/3.0/win/downloads/fusioninventory-agent_win
 
 Source100:  https://agents.siveo.net/3.0/win/downloads/python_modules/pypiwin32-223-py3-none-any.whl
 Source101:  https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-304-cp39-cp39-win_amd64.whl
-Source102:  https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces-0.11.0-cp311-cp311-win_amd64.whl
+Source102:  https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces2-0.0.18-cp37-abi3-win_amd64.whl
 Source103:  https://agents.siveo.net/3.0/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl
 Source104:  https://agents.siveo.net/3.0/win/downloads/python_modules/slixmpp-1.8.4.tar.gz
 Source105:  https://agents.siveo.net/3.0/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl

@@ -117,7 +117,7 @@ build:
 	mkdir -p var/lib/pulse2/clients/win/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl \
-		https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces-0.11.0-cp311-cp311-win_amd64.whl \
+		https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces2-0.0.18-cp37-abi3-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/slixmpp-1.8.4.tar.gz \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl \
