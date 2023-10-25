@@ -18,8 +18,8 @@ Source4:     https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
 Source5:     https://agents.siveo.net/win/downloads/VCForPython27.msi
 Source6:     https://agents.siveo.net/win/downloads/libcurl4-7.52.1-1.tar.xz
 Source7:     https://agents.siveo.net/win/downloads/cwRsync_5.5.0_x86_Free.zip
-Source8:     https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.2.2.0p1-Beta/OpenSSH-Win32.zip
-Source9:     https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.2.2.0p1-Beta/OpenSSH-Win64.zip
+Source8:     https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.4.0.0p1-Beta/OpenSSH-Win32.zip
+Source9:     https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.4.0.0p1-Beta/OpenSSH-Win64.zip
 Source12:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.6/fusioninventory-agent_windows-x64_2.6.exe
 Source13:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.6/fusioninventory-agent_windows-x64_2.6-portable.exe
 Source16:    https://www.tightvnc.com/download/2.8.81/tightvnc-2.8.81-gpl-setup-64bit.msi
