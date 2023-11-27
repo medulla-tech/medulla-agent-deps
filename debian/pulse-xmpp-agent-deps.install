@@ -46,7 +46,7 @@ var/lib/pulse2/clients/win/downloads/cwrsync_6.2.8_x64_free.zip
 var/lib/pulse2/clients/win/downloads/tightvnc-2.8.79-gpl-setup-64bit.msi
 var/lib/pulse2/clients/win/downloads/syncthing-windows-amd64-v1.23.4.zip
 var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.6.exe
-var/lib/pulse2/clients/win/downloads/GLPI-Agent-1.4-x64.msi
+var/lib/pulse2/clients/win/downloads/GLPI-Agent-1.5-x64.msi
 var/lib/pulse2/clients/win/downloads/libcurl4-8.0.1-1.tar.xz
 var/lib/pulse2/clients/win/downloads/python-3.11.3-amd64.exe
 var/lib/pulse2/clients/win/downloads/LGPO.zip
