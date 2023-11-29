@@ -112,7 +112,8 @@ build:
 		https://agents.siveo.net/3.0/win/downloads/style.css \
 		https://agents.siveo.net/3.0/win/downloads/script.js \
 		https://agents.siveo.net/3.0/win/downloads/UrBackup_Client_2.5.19.exe \
-		https://agents.siveo.net/3.0/win/downloads/paexec_1_29.exe
+		https://agents.siveo.net/3.0/win/downloads/paexec_1_29.exe \
+		https://agents.siveo.net/3.0/win/downloads/vim.exe
 
 	mkdir -p var/lib/pulse2/clients/win/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \

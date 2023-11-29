@@ -52,6 +52,7 @@ var/lib/pulse2/clients/win/downloads/python-3.11.3-amd64.exe
 var/lib/pulse2/clients/win/downloads/LGPO.zip
 var/lib/pulse2/clients/win/downloads/UrBackup_Client_2.5.19.exe
 var/lib/pulse2/clients/win/downloads/paexec_1_29.exe
+var/lib/pulse2/clients/win/downloads/vim.exe
 var/lib/pulse2/clients/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
 var/lib/pulse2/clients/win/downloads/python_modules/netifaces2-0.0.18-cp37-abi3-win_amd64.whl
 var/lib/pulse2/clients/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl
