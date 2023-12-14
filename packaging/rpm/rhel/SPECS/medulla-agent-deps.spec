@@ -30,7 +30,7 @@ Source15:   https://agents.siveo.net/3.0/win/downloads/jquery.dataTables.js
 Source16:   https://agents.siveo.net/3.0/win/downloads/glyphicons-halflings-regular.woff
 Source17:   https://agents.siveo.net/3.0/win/downloads/style.css
 Source18:   https://agents.siveo.net/3.0/win/downloads/script.js
-Source19:   https://agents.siveo.net/3.0/win/downloads/UrBackup_Client_2.5.19.exe
+Source19:   https://agents.siveo.net/3.0/win/downloads/UrBackup_Client_2.5.24.exe
 Source20:   https://agents.siveo.net/3.0/win/downloads/paexec_1_29.exe
 Source21:   https://agents.siveo.net/3.0/win/downloads/fusioninventory-agent_windows-x64_2.6-portable.exe
 Source22:   https://agents.siveo.net/3.0/win/downloads/GLPI-Agent-1.5-x64.msi
