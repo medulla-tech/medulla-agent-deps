@@ -20,8 +20,8 @@ Source6:     https://agents.siveo.net/win/downloads/libcurl4-7.52.1-1.tar.xz
 Source7:     https://agents.siveo.net/win/downloads/cwRsync_5.5.0_x86_Free.zip
 Source8:     https://github.com/PowerShell/Win32-OpenSSH/releases/download/v7.9.0.0p1-Beta/OpenSSH-Win32.zip
 Source9:     https://github.com/PowerShell/Win32-OpenSSH/releases/download/v7.9.0.0p1-Beta/OpenSSH-Win64.zip
-Source12:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.5.2/fusioninventory-agent_windows-x64_2.6.exe
-Source16:    https://www.tightvnc.com/download/2.8.8/tightvnc-2.8.81-gpl-setup-64bit.msi
+Source12:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.6/fusioninventory-agent_windows-x64_2.6.exe
+Source16:    https://www.tightvnc.com/download/2.8.81/tightvnc-2.8.81-gpl-setup-64bit.msi
 Source17:    https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg
 Source18:    https://github.com/Homebrew/brew/archive/1.5.12.tar.gz
 Source19:    https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-windows-386-v1.18.0.zip
