@@ -29,8 +29,8 @@ Source20:    https://github.com/syncthing/syncthing/releases/download/v1.18.0/sy
 Source21:    https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-macos-amd64-v1.18.0.zip
 Source22:    https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/FusionInventory-Agent-2.4-1.pkg.tar.gz
 Source23:    https://download.microsoft.com/download/8/5/C/85C25433-A1B0-4FFA-9429-7E023E7DA8D8/LGPO.zip
-Source24:    https://agents.siveo.net/win/downloads/UrBackup_Client_2.4.11.exe
-Source25:    https://agents.siveo.net/lin/downloads/UrBackup_Client_Linux_2.4.11.sh
+Source24:    https://agents.siveo.net/win/downloads/UrBackup_Client_2.5.24.exe
+Source25:    https://agents.siveo.net/lin/downloads/UrBackup_Client_Linux_2.45.24.sh
 Source26:    https://www.poweradmin.com/paexec/paexec_1_29.exe
 Source27:    https://github.com/glpi-project/glpi-agent/releases/download/1.4/GLPI-Agent-1.4-x64.msi
 
