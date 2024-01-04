@@ -116,6 +116,7 @@ var/lib/pulse2/clients/win/downloads/python_modules/pypiwin32-223-py3-none-any.w
 var/lib/pulse2/clients/win/downloads/python_modules/lmdb-1.4.1-cp311-cp311-win_amd64.whl
 var/lib/pulse2/clients/win/downloads/python_modules/netaddr-0.8.0-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/PyYAML-6.0.1-cp311-cp311-win_amd64.whl
+var/lib/pulse2/clients/win/downloads/python_modules/wheel-0.42.0-py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/bootstrap.js
 var/lib/pulse2/clients/win/downloads/bootstrap.css
 var/lib/pulse2/clients/win/downloads/jquery-3.6.4.js
