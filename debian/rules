@@ -111,7 +111,7 @@ build:
 		https://agents.siveo.net/3.0/win/downloads/glyphicons-halflings-regular.woff \
 		https://agents.siveo.net/3.0/win/downloads/style.css \
 		https://agents.siveo.net/3.0/win/downloads/script.js \
-		https://agents.siveo.net/3.0/win/downloads/UrBackup_Client_2.5.24.exe \
+		https://agents.siveo.net/3.0/win/downloads/UrBackup_Client_2.5.25.exe \
 		https://agents.siveo.net/3.0/win/downloads/paexec_1_29.exe \
 		https://agents.siveo.net/3.0/win/downloads/vim.exe
 
@@ -195,7 +195,7 @@ build:
 	#  https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
 	#  https://agents.siveo.net/lin/downloads/style.css \
     #  https://agents.siveo.net/lin/downloads/script.js \
-	#  https://hndl.urbackup.org/Client/2.5.19/UrBackup%20Client%20Linux%202.5.19.sh
+	#  https://hndl.urbackup.org/Client/2.5.19/UrBackup%20Client%20Linux%202.5.25.sh
 	# mv 'UrBackup Client Linux 2.5.19.sh' UrBackupClient-Linux-2.5.19.sh
 
 	mkdir -p var/lib/pulse2/clients/lin/downloads/
@@ -210,7 +210,7 @@ build:
 	 https://agents.siveo.net/3.0/lin/downloads/glyphicons-halflings-regular.woff \
 	 https://agents.siveo.net/3.0/lin/downloads/style.css \
 	 https://agents.siveo.net/3.0/lin/downloads/script.js \
-	 https://agents.siveo.net/3.0/lin/downloads/UrBackup_Client_Linux_2.5.19.sh
+	 https://agents.siveo.net/3.0/lin/downloads/UrBackup_Client_Linux_2.5.25.sh
 	
 	#Mac Modules
 	# TBD

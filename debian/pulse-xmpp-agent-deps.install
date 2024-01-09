@@ -1,4 +1,4 @@
-var/lib/pulse2/clients/lin/downloads/UrBackup_Client_Linux_2.5.19.sh
+var/lib/pulse2/clients/lin/downloads/UrBackup_Client_Linux_2.5.25.sh
 var/lib/pulse2/clients/lin/downloads/bootstrap.js
 var/lib/pulse2/clients/lin/downloads/bootstrap.css
 var/lib/pulse2/clients/lin/downloads/jquery-3.5.1.js
@@ -50,7 +50,7 @@ var/lib/pulse2/clients/win/downloads/GLPI-Agent-1.5-x64.msi
 var/lib/pulse2/clients/win/downloads/libcurl4-8.0.1-1.tar.xz
 var/lib/pulse2/clients/win/downloads/python-3.11.7-amd64.exe
 var/lib/pulse2/clients/win/downloads/LGPO.zip
-var/lib/pulse2/clients/win/downloads/UrBackup_Client_2.5.24.exe
+var/lib/pulse2/clients/win/downloads/UrBackup_Client_2.5.25.exe
 var/lib/pulse2/clients/win/downloads/paexec_1_29.exe
 var/lib/pulse2/clients/win/downloads/vim.exe
 var/lib/pulse2/clients/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
