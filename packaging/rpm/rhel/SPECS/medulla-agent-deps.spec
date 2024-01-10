@@ -55,10 +55,10 @@ Source115:  https://agents.siveo.net/3.0/win/downloads/python_modules/croniter-1
 Source116:  https://agents.siveo.net/3.0/win/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl
 Source117:  https://agents.siveo.net/3.0/win/downloads/python_modules/six-1.16.0-py2.py3-none-any.whl
 Source118:  https://agents.siveo.net/3.0/win/downloads/python_modules/psutil-5.9.5-cp36-abi3-win_amd64.whl
-Source119:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6-6.3.1-cp37-abi3-win_amd64.whl
-Source120:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6_sip-13.4.0-cp39-cp39-win_amd64.whl
-Source121:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6_Qt6-6.3.1-py3-none-win_amd64.whl
-Source122:  https://agents.siveo.net/3.0/win/downloads/python_modules/sip-6.6.2-cp37-abi3-win_amd64.whl
+Source119:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6-6.6.1-cp38-abi3-win_amd64.whl
+Source120:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6_sip-13.6.0-cp311-cp311-win_amd64.whl
+Source121:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl
+Source122:  https://agents.siveo.net/3.0/win/downloads/python_modules/sip-6.8.1-py3-none-any.whl
 Source123:  https://agents.siveo.net/3.0/win/downloads/python_modules/packaging-21.3-py3-none-any.whl
 Source124:  https://agents.siveo.net/3.0/win/downloads/python_modules/ply-3.11-py2.py3-none-any.whl
 Source125:  https://agents.siveo.net/3.0/win/downloads/python_modules/toml-0.10.2-py2.py3-none-any.whl
