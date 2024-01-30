@@ -13,8 +13,7 @@ Release:        0.%git.1%{?dist}
 %endif
 Source0:	%{name}-%{version}.tar.gz
 Source2:     https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
-Source3:     https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe
-Source4:     https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
+Source4:     https://www.python.org/ftp/python/3.11.7/python-3.11.7-amd64.exe
 Source5:     https://agents.siveo.net/win/downloads/VCForPython27.msi
 Source6:     https://agents.siveo.net/win/downloads/libcurl4-7.52.1-1.tar.xz
 Source7:     https://agents.siveo.net/win/downloads/cwRsync_5.5.0_x86_Free.zip
@@ -51,10 +50,9 @@ Source116:   https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455
 Source118:   https://files.pythonhosted.org/packages/b9/e4/6867765edcab8d12a52c84c9b0af492ecb99f8cc565ad552341bcf73ebd9/psutil-5.4.3-cp27-none-win_amd64.whl
 Source119:   https://github.com/mhammond/pywin32/releases/download/b223/pywin32-223.win32-py3.6.exe
 Source120:   https://github.com/mhammond/pywin32/releases/download/b223/pywin32-223.win-amd64-py3.6.exe
-Source121:   https://files.pythonhosted.org/packages/6c/63/89f888968ee0c7e7ffb2ea7604fae3ef85f7bc86f57dd07019805aa78798/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win32.whl
-Source122:   https://files.pythonhosted.org/packages/a7/22/67cc2bac6ae2cd3a7eabb2a2e91638b94bdc6e0503747e49670ce44bb5b0/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl
-Source123:   https://files.pythonhosted.org/packages/7a/49/67cc7955baf2ec5b67e141da2ab2a436cbf0f8d7c9fcab54e35df21d056b/sip-4.19.8-cp36-none-win32.whl
-Source124:   https://files.pythonhosted.org/packages/30/fa/90ea79d7b6b21a50e16d2e1214bd4d45390ee1b5393dc09c3785a3dc9c7e/sip-4.19.8-cp36-none-win_amd64.whl
+Source121:   https://files.pythonhosted.org/packages/6d/40/e91a88d5c716e2982eb2eef5d4c314add196951e7d430e90eb0fe8fb81a1/PyQt6-6.6.1-cp38-abi3-win_amd64.whl
+Source122:   https://files.pythonhosted.org/packages/c9/f3/1b5b83ba66254091735d021bcecf9fe03fd86bb09e55efc633b734071a54/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl
+Source123:   https://files.pythonhosted.org/packages/5e/20/a5f88409f0152d707e72809eac9b5a58fc5c7e989145fcfe051ba087ade8/sip-6.8.2-py3-none-any.whl
 Source125:   https://files.pythonhosted.org/packages/a2/38/3adebc116c711f795edb94004afbd9784576b6ee50b7f89647889382d152/tray-0.1.0.tar.gz
 Source126:   https://files.pythonhosted.org/packages/ef/05/4b773f74f830a90a326b06f9b24e65506302ab049e825a3c0b60b1a6e26a/pycurl-7.43.0.5.tar.gz
 Source127:   https://pypi.python.org/packages/11/1b/fe6904151b37a0d6da6e60c13583945f8ce3eae8ebd0ec763ce546358947/lxml-3.6.0.tar.gz
@@ -116,10 +114,10 @@ Dependancies needed for kiosk windows agent
 
 %install
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
-cp %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE12 %SOURCE16 %SOURCE19 %SOURCE20 %SOURCE23 %SOURCE24 %SOURCE26 %SOURCE27 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/win/downloads/
+cp %SOURCE2 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE12 %SOURCE16 %SOURCE19 %SOURCE20 %SOURCE23 %SOURCE24 %SOURCE26 %SOURCE27 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/win/downloads/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE110 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
+cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE110 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/
 cp %SOURCE25 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/linux/downloads/
