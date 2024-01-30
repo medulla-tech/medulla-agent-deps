@@ -144,12 +144,10 @@ cp %SOURCE102 %SOURCE104 %SOURCE106 %SOURCE108 %SOURCE113 %SOURCE114 %SOURCE115 
 %exclude /var/lib/pulse2/clients/win/downloads/python_modules/tray-0.1.0.tar.gz
 
 %files -n pulse-kiosk-agent-deps
-/var/lib/pulse2/clients/win/downloads/python-3.6.5.exe
-/var/lib/pulse2/clients/win/downloads/python-3.6.5-amd64.exe
+/var/lib/pulse2/clients/win/downloads/python-3.11.7-amd64.exe
 /var/lib/pulse2/clients/win/downloads/python_modules/pywin32-223.win32-py3.6.exe
 /var/lib/pulse2/clients/win/downloads/python_modules/pywin32-223.win-amd64-py3.6.exe
-/var/lib/pulse2/clients/win/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win32.whl
-/var/lib/pulse2/clients/win/downloads/python_modules/PyQt5-5.10.1-5.10.1-cp35.cp36.cp37.cp38-none-win_amd64.whl
-/var/lib/pulse2/clients/win/downloads/python_modules/sip-4.19.8-cp36-none-win32.whl
-/var/lib/pulse2/clients/win/downloads/python_modules/sip-4.19.8-cp36-none-win_amd64.whl
+/var/lib/pulse2/clients/win/downloads/python_modules/PyQt6-6.6.1-cp38-abi3-win_amd64.whl
+/var/lib/pulse2/clients/win/downloads/python_modules/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl
+/var/lib/pulse2/clients/win/downloads/python_modules/sip-6.8.2-py3-none-any.whl
 /var/lib/pulse2/clients/win/downloads/python_modules/tray-0.1.0.tar.gz
