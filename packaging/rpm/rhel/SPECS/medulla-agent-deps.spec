@@ -48,8 +48,7 @@ Source114:   https://pypi.python.org/packages/58/2a/17d003f2a9a0188cf9365d63b335
 Source115:   https://files.pythonhosted.org/packages/4b/0d/7ed381ab4fe80b8ebf34411d14f253e1cf3e56e2820ffa1d8844b23859a2/python_dateutil-2.6.1-py2.py3-none-any.whl
 Source116:   https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl
 Source118:   https://files.pythonhosted.org/packages/b9/e4/6867765edcab8d12a52c84c9b0af492ecb99f8cc565ad552341bcf73ebd9/psutil-5.4.3-cp27-none-win_amd64.whl
-Source119:   https://github.com/mhammond/pywin32/releases/download/b223/pywin32-223.win32-py3.6.exe
-Source120:   https://github.com/mhammond/pywin32/releases/download/b223/pywin32-223.win-amd64-py3.6.exe
+Source120:   https://files.pythonhosted.org/packages/7e/9e/ad6b1ae2a5ad1066dc509350e0fbf74d8d50251a51e420a2a8feaa0cecbd/pywin32-306-cp311-cp311-win_amd64.whl
 Source121:   https://files.pythonhosted.org/packages/6d/40/e91a88d5c716e2982eb2eef5d4c314add196951e7d430e90eb0fe8fb81a1/PyQt6-6.6.1-cp38-abi3-win_amd64.whl
 Source122:   https://files.pythonhosted.org/packages/c9/f3/1b5b83ba66254091735d021bcecf9fe03fd86bb09e55efc633b734071a54/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl
 Source123:   https://files.pythonhosted.org/packages/5e/20/a5f88409f0152d707e72809eac9b5a58fc5c7e989145fcfe051ba087ade8/sip-6.8.2-py3-none-any.whl
@@ -117,7 +116,7 @@ mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
 cp %SOURCE2 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE12 %SOURCE16 %SOURCE19 %SOURCE20 %SOURCE23 %SOURCE24 %SOURCE26 %SOURCE27 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/win/downloads/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE110 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
+cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE110 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE118 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/
 cp %SOURCE25 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/linux/downloads/
@@ -134,8 +133,7 @@ cp %SOURCE102 %SOURCE104 %SOURCE106 %SOURCE108 %SOURCE113 %SOURCE114 %SOURCE115 
 /var/lib/pulse2/clients/mac/downloads/
 /var/lib/pulse2/clients/win/downloads/
 %exclude /var/lib/pulse2/clients/win/downloads/python-3.11.7-amd64.exe
-%exclude /var/lib/pulse2/clients/win/downloads/python_modules/pywin32-223.win32-py3.6.exe
-%exclude /var/lib/pulse2/clients/win/downloads/python_modules/pywin32-223.win-amd64-py3.6.exe
+%exclude /var/lib/pulse2/clients/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
 %exclude /var/lib/pulse2/clients/win/downloads/python_modules/PyQt6-6.6.1-cp38-abi3-win_amd64.whl
 %exclude /var/lib/pulse2/clients/win/downloads/python_modules/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl
 %exclude /var/lib/pulse2/clients/win/downloads/python_modules/sip-6.8.2-py3-none-any.whl
@@ -143,8 +141,7 @@ cp %SOURCE102 %SOURCE104 %SOURCE106 %SOURCE108 %SOURCE113 %SOURCE114 %SOURCE115 
 
 %files -n pulse-kiosk-agent-deps
 /var/lib/pulse2/clients/win/downloads/python-3.11.7-amd64.exe
-/var/lib/pulse2/clients/win/downloads/python_modules/pywin32-223.win32-py3.6.exe
-/var/lib/pulse2/clients/win/downloads/python_modules/pywin32-223.win-amd64-py3.6.exe
+/var/lib/pulse2/clients/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
 /var/lib/pulse2/clients/win/downloads/python_modules/PyQt6-6.6.1-cp38-abi3-win_amd64.whl
 /var/lib/pulse2/clients/win/downloads/python_modules/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl
 /var/lib/pulse2/clients/win/downloads/python_modules/sip-6.8.2-py3-none-any.whl
