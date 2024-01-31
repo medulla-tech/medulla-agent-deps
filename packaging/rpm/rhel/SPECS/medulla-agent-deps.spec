@@ -52,6 +52,7 @@ Source120:   https://files.pythonhosted.org/packages/7e/9e/ad6b1ae2a5ad1066dc509
 Source121:   https://files.pythonhosted.org/packages/6d/40/e91a88d5c716e2982eb2eef5d4c314add196951e7d430e90eb0fe8fb81a1/PyQt6-6.6.1-cp38-abi3-win_amd64.whl
 Source122:   https://files.pythonhosted.org/packages/c9/f3/1b5b83ba66254091735d021bcecf9fe03fd86bb09e55efc633b734071a54/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl
 Source123:   https://files.pythonhosted.org/packages/5e/20/a5f88409f0152d707e72809eac9b5a58fc5c7e989145fcfe051ba087ade8/sip-6.8.2-py3-none-any.whl
+Source124:   https://files.pythonhosted.org/packages/20/42/9e31de556d6991f041268aac913b7359f6d54d2000b0182f8051869ab140/PyQt6_sip-13.6.0-cp311-cp311-win_amd64.whl
 Source125:   https://files.pythonhosted.org/packages/a2/38/3adebc116c711f795edb94004afbd9784576b6ee50b7f89647889382d152/tray-0.1.0.tar.gz
 Source126:   https://files.pythonhosted.org/packages/ef/05/4b773f74f830a90a326b06f9b24e65506302ab049e825a3c0b60b1a6e26a/pycurl-7.43.0.5.tar.gz
 Source127:   https://pypi.python.org/packages/11/1b/fe6904151b37a0d6da6e60c13583945f8ce3eae8ebd0ec763ce546358947/lxml-3.6.0.tar.gz
@@ -116,7 +117,7 @@ mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
 cp %SOURCE2 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE12 %SOURCE16 %SOURCE19 %SOURCE20 %SOURCE23 %SOURCE24 %SOURCE26 %SOURCE27 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/win/downloads/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE110 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE118 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
+cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE110 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE118 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/
 cp %SOURCE25 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %buildroot/var/lib/pulse2/clients/linux/downloads/
@@ -136,6 +137,7 @@ cp %SOURCE102 %SOURCE104 %SOURCE106 %SOURCE108 %SOURCE113 %SOURCE114 %SOURCE115 
 %exclude /var/lib/pulse2/clients/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
 %exclude /var/lib/pulse2/clients/win/downloads/python_modules/PyQt6-6.6.1-cp38-abi3-win_amd64.whl
 %exclude /var/lib/pulse2/clients/win/downloads/python_modules/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl
+%exclude /var/lib/pulse2/clients/win/downloads/python_modules/PyQt6_sip-13.6.0-cp311-cp311-win_amd64.whl
 %exclude /var/lib/pulse2/clients/win/downloads/python_modules/sip-6.8.2-py3-none-any.whl
 %exclude /var/lib/pulse2/clients/win/downloads/python_modules/tray-0.1.0.tar.gz
 
@@ -144,5 +146,6 @@ cp %SOURCE102 %SOURCE104 %SOURCE106 %SOURCE108 %SOURCE113 %SOURCE114 %SOURCE115 
 /var/lib/pulse2/clients/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
 /var/lib/pulse2/clients/win/downloads/python_modules/PyQt6-6.6.1-cp38-abi3-win_amd64.whl
 /var/lib/pulse2/clients/win/downloads/python_modules/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl
+/var/lib/pulse2/clients/win/downloads/python_modules/PyQt6_sip-13.6.0-cp311-cp311-win_amd64.whl
 /var/lib/pulse2/clients/win/downloads/python_modules/sip-6.8.2-py3-none-any.whl
 /var/lib/pulse2/clients/win/downloads/python_modules/tray-0.1.0.tar.gz
