@@ -34,6 +34,7 @@ Source19:   https://agents.siveo.net/3.0/win/downloads/UrBackup_Client_2.5.25.ex
 Source20:   https://agents.siveo.net/3.0/win/downloads/paexec_1_29.exe
 Source22:   https://agents.siveo.net/3.0/win/downloads/GLPI-Agent-1.5-x64.msi
 Source23:   https://agents.siveo.net/3.0/win/downloads/vim.exe
+Source24:   https://agents.siveo.net/3.0/win/downloads/rustdesk-1.2.3-x86_64.exe
 
 Source100:  https://agents.siveo.net/3.0/win/downloads/python_modules/pypiwin32-223-py3-none-any.whl
 Source101:  https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
@@ -155,7 +156,7 @@ Dependancies needed for pulse windows agent
 
 %install
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
-cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE17 %SOURCE18 %SOURCE19 %SOURCE20 %SOURCE22 %SOURCE23 %buildroot/var/lib/pulse2/clients/win/downloads/
+cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE17 %SOURCE18 %SOURCE19 %SOURCE20 %SOURCE22 %SOURCE23 %SOURCE24 %buildroot/var/lib/pulse2/clients/win/downloads/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %SOURCE155 %SOURCE156 %SOURCE157 %SOURCE158 %SOURCE159 %SOURCE160 %SOURCE161 %SOURCE162 %SOURCE163 %SOURCE164 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
