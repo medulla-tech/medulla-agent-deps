@@ -129,3 +129,4 @@ var/lib/pulse2/clients/win/downloads/jquery.dataTables.js
 var/lib/pulse2/clients/win/downloads/glyphicons-halflings-regular.woff
 var/lib/pulse2/clients/win/downloads/fusioninventory-agent_windows-x64_2.6.exe
 var/lib/pulse2/clients/win/downloads/paexec_1_29.exe
+var/lib/pulse2/clients/win/downloads/rustdesk-1.2.3-x86_64.exe
