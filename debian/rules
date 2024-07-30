@@ -181,7 +181,8 @@ build:
 		https://agents.siveo.net/3.0/win/downloads/python_modules/PyYAML-6.0.1-cp311-cp311-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/lmdb-1.4.1-cp311-cp311-win_amd64.whl \
 		https://agents.siveo.net/3.0/win/downloads/python_modules/netaddr-0.8.0-py2.py3-none-any.whl \
-		https://agents.siveo.net/3.0/win/downloads/python_modules/wheel-0.42.0-py3-none-any.whl
+		https://agents.siveo.net/3.0/win/downloads/python_modules/wheel-0.42.0-py3-none-any.whl \
+		https://agents.siveo.net/3.0/win/downloads/python_modules/pillow-10.4.0-cp311-cp311-win_amd64.whl
 	 
 	#Linux Modules
 	# Original locations
@@ -293,8 +294,8 @@ build:
      https://agents.siveo.net/3.0/mac/downloads/python_modules/chardet-5.1.0-py3-none-any.whl \
      https://agents.siveo.net/3.0/mac/downloads/python_modules/pathlib-1.0.1-py3-none-any.whl \
 	 https://agents.siveo.net/3.0/mac/downloads/python_modules/PyNaCl-1.5.0-cp36-abi3-macosx_10_10_universal2.whl \
-	 https://agents.siveo.net/3.0/win/downloads/python_modules/packaging-24.1-py3-none-any.whl
-
+	 https://agents.siveo.net/3.0/mac/downloads/python_modules/packaging-24.1-py3-none-any.whl \
+	 https://agents.siveo.net/3.0/mac/downloads/python_modules/pillow-10.4.0-cp311-cp311-macosx_10_10_x86_64.whl
 	rm -frv $(DESTDIR)/tmp
 clean:
 	dh_testdir
