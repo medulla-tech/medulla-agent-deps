@@ -41,6 +41,7 @@ var/lib/pulse2/clients/mac/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-an
 var/lib/pulse2/clients/mac/downloads/python_modules/paramiko-3.1.0-py3-none-any.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/pycryptodome-3.18.0-cp35-abi3-macosx_10_9_x86_64.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/requests-2.28.2-py3-none-any.whl
+var/lib/pulse2/clients/mac/downloads/python_modules/pillow-10.4.0-cp311-cp311-macosx_10_10_x86_64.whl
 var/lib/pulse2/clients/win/downloads/OpenSSH-Win64.zip
 var/lib/pulse2/clients/win/downloads/cwrsync_6.2.8_x64_free.zip
 var/lib/pulse2/clients/win/downloads/tightvnc-2.8.84-gpl-setup-64bit.msi
@@ -117,6 +118,7 @@ var/lib/pulse2/clients/win/downloads/python_modules/lmdb-1.4.1-cp311-cp311-win_a
 var/lib/pulse2/clients/win/downloads/python_modules/netaddr-0.8.0-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/PyYAML-6.0.1-cp311-cp311-win_amd64.whl
 var/lib/pulse2/clients/win/downloads/python_modules/wheel-0.42.0-py3-none-any.whl
+var/lib/pulse2/clients/win/downloads/python_modules/pillow-10.4.0-cp311-cp311-win_amd64.whl
 var/lib/pulse2/clients/win/downloads/bootstrap.js
 var/lib/pulse2/clients/win/downloads/bootstrap.css
 var/lib/pulse2/clients/win/downloads/jquery-3.6.4.js
