@@ -5,7 +5,7 @@
 
 Summary:	Dependancies needed for pulse windows agent
 Name:		medulla-agent-deps
-Version:	3.0
+Version:	3.2.0
 %if ! %use_git
 Release:        0%{?dist}
 %else
@@ -59,7 +59,7 @@ Source119:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6-6.6.
 Source120:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6_sip-13.6.0-cp311-cp311-win_amd64.whl
 Source121:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl
 Source122:  https://agents.siveo.net/3.0/win/downloads/python_modules/sip-6.8.1-py3-none-any.whl
-Source123:  https://agents.siveo.net/3.0/win/downloads/python_modules/packaging-23.1-py3-none-any.whl
+Source123:  https://agents.siveo.net/3.0/win/downloads/python_modules/packaging-24.1-py3-none-any.whl
 Source124:  https://agents.siveo.net/3.0/win/downloads/python_modules/ply-3.11-py2.py3-none-any.whl
 Source125:  https://agents.siveo.net/3.0/win/downloads/python_modules/toml-0.10.2-py2.py3-none-any.whl
 Source126:  https://agents.siveo.net/3.0/win/downloads/python_modules/pyparsing-3.0.9-py3-none-any.whl
@@ -100,8 +100,8 @@ Source161:  https://agents.siveo.net/3.0/win/downloads/python_modules/pypiwin32-
 Source162:  https://agents.siveo.net/3.0/win/downloads/python_modules/PyYAML-6.0.1-cp311-cp311-win_amd64.whl
 Source163:  https://agents.siveo.net/3.0/win/downloads/python_modules/netaddr-0.8.0-py2.py3-none-any.whl
 Source164:  https://agents.siveo.net/3.0/win/downloads/python_modules/wheel-0.42.0-py3-none-any.whl
-Source165:  https://agents.siveo.net/3.0/win/downloads/python_modules/packaging-24.1-py3-none-any.whl
-Source166:  https://agents.siveo.net/3.0/win/downloads/python_modules/pillow-10.4.0-cp311-cp311-win_amd64.whl
+Source165:  https://agents.siveo.net/3.0/win/downloads/python_modules/pillow-10.4.0-cp311-cp311-win_amd64.whl
+Source166:  https://agents.siveo.net/3.0/win/downloads/python_modules/lmdb-1.4.1-cp311-cp311-win_amd64.whl
 
 Source200:	https://agents.siveo.net/3.0/lin/downloads/bootstrap.js
 Source201:	https://agents.siveo.net/3.0/lin/downloads/bootstrap.css
