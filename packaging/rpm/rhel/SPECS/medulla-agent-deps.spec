@@ -18,7 +18,7 @@ Source3:    https://agents.siveo.net/3.0/win/downloads/cwrsync_6.2.8_x64_free.zi
 Source4:    https://agents.siveo.net/3.0/win/downloads/LGPO.zip
 Source5:    https://agents.siveo.net/3.0/win/downloads/OpenSSH-Win64.zip
 Source6:    https://agents.siveo.net/3.0/win/downloads/fusioninventory-agent_windows-x64_2.6.exe
-Source7:    https://agents.siveo.net/3.0/win/downloads/tightvnc-2.8.84-gpl-setup-64bit.msi
+Source7:    https://agents.siveo.net/3.0/win/downloads/tightvnc-2.8.85-gpl-setup-64bit.msi
 Source8:    https://agents.siveo.net/3.0/win/downloads/syncthing-windows-amd64-v1.23.4.zip
 Source9:    https://agents.siveo.net/3.0/win/downloads/bootstrap.js
 Source10:   https://agents.siveo.net/3.0/win/downloads/bootstrap.css
@@ -38,7 +38,7 @@ Source24:   https://agents.siveo.net/3.0/win/downloads/rustdesk-1.2.3-x86_64.exe
 
 Source100:  https://agents.siveo.net/3.0/win/downloads/python_modules/pypiwin32-223-py3-none-any.whl
 Source101:  https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
-Source102:  https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces2-0.0.18-cp37-abi3-win_amd64.whl
+Source102:  https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces2-0.0.22-cp37-abi3-win_amd64.whl
 Source103:  https://agents.siveo.net/3.0/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl
 Source104:  https://agents.siveo.net/3.0/win/downloads/python_modules/slixmpp-1.8.5.tar.gz
 Source105:  https://agents.siveo.net/3.0/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl
