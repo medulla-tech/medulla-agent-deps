@@ -32,7 +32,7 @@ Source17:   https://agents.siveo.net/3.0/win/downloads/style.css
 Source18:   https://agents.siveo.net/3.0/win/downloads/script.js
 Source19:   https://agents.siveo.net/3.0/win/downloads/UrBackup_Client_2.5.25.exe
 Source20:   https://agents.siveo.net/3.0/win/downloads/paexec_1_29.exe
-Source22:   https://agents.siveo.net/3.0/win/downloads/GLPI-Agent-1.5-x64.msi
+Source22:   https://agents.siveo.net/3.0/win/downloads/GLPI-Agent-1.11-x64.msi
 Source23:   https://agents.siveo.net/3.0/win/downloads/vim.exe
 Source24:   https://agents.siveo.net/3.0/win/downloads/rustdesk-1.2.3-x86_64.exe
 
