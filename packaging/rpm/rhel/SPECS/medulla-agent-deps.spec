@@ -38,7 +38,7 @@ Source24:   https://agents.siveo.net/3.0/win/downloads/rustdesk-1.2.3-x86_64.exe
 
 Source100:  https://agents.siveo.net/3.0/win/downloads/python_modules/pypiwin32-223-py3-none-any.whl
 Source101:  https://agents.siveo.net/3.0/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
-Source102:  https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces2-0.0.18-cp37-abi3-win_amd64.whl
+Source102:  https://agents.siveo.net/3.0/win/downloads/python_modules/netifaces2-0.0.22-cp37-abi3-win_amd64.whl
 Source103:  https://agents.siveo.net/3.0/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl
 Source104:  https://agents.siveo.net/3.0/win/downloads/python_modules/slixmpp-1.8.5.tar.gz
 Source105:  https://agents.siveo.net/3.0/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl

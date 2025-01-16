@@ -55,7 +55,7 @@ var/lib/pulse2/clients/win/downloads/UrBackup_Client_2.5.25.exe
 var/lib/pulse2/clients/win/downloads/paexec_1_29.exe
 var/lib/pulse2/clients/win/downloads/vim.exe
 var/lib/pulse2/clients/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
-var/lib/pulse2/clients/win/downloads/python_modules/netifaces2-0.0.18-cp37-abi3-win_amd64.whl
+var/lib/pulse2/clients/win/downloads/python_modules/netifaces2-0.0.22-cp37-abi3-win_amd64.whl
 var/lib/pulse2/clients/win/downloads/python_modules/comtypes-1.1.14-py2.py3-none-any.whl
 var/lib/pulse2/clients/win/downloads/python_modules/slixmpp-1.8.5.tar.gz
 var/lib/pulse2/clients/win/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl
