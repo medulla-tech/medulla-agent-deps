@@ -12,13 +12,13 @@ Release:        0%{?dist}
 Release:        0.%git.1%{?dist}
 %endif
 Source0:	%{name}-%{version}.tar.gz
-Source1:    https://agents.siveo.net/3.0/win/downloads/python-3.11.8-amd64.exe
+Source1:    https://agents.siveo.net/3.0/win/downloads/python-3.11.9-amd64.exe
 Source2:    https://agents.siveo.net/3.0/win/downloads/libcurl4-8.0.1-1.tar.xz
 Source3:    https://agents.siveo.net/3.0/win/downloads/cwrsync_6.2.8_x64_free.zip
 Source4:    https://agents.siveo.net/3.0/win/downloads/LGPO.zip
 Source5:    https://agents.siveo.net/3.0/win/downloads/OpenSSH-Win64.zip
 Source6:    https://agents.siveo.net/3.0/win/downloads/fusioninventory-agent_windows-x64_2.6.exe
-Source7:    https://agents.siveo.net/3.0/win/downloads/tightvnc-2.8.85-gpl-setup-64bit.msi
+Source7:    https://agents.siveo.net/3.0/win/downloads/tightvnc-2.8.81-gpl-setup-64bit.msi
 Source8:    https://agents.siveo.net/3.0/win/downloads/syncthing-windows-amd64-v1.23.4.zip
 Source9:    https://agents.siveo.net/3.0/win/downloads/bootstrap.js
 Source10:   https://agents.siveo.net/3.0/win/downloads/bootstrap.css
