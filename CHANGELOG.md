@@ -1,5 +1,8 @@
 # Change Log
 
+## [3.2.2](https://github.com/medulla-tech/medulla-agent-deps/releases/tag/3.2.2) (unreleased)
+- Update Glpi Agent to version 1.12
+
 ## [3.2.1](https://github.com/medulla-tech/medulla-agent-deps/releases/tag/3.2.1) (unreleased)
 - Update Glpi Agent to version 1.11
 - Update TightVNC to version 2.8.85
