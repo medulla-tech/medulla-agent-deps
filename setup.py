@@ -29,10 +29,10 @@ setup(
         'Programming Language :: Python :: 2.7',
     ],
 
-    keywords='pulse-xmpp-agent-deps',
-    name='pulse-xmpp-agent-deps',
+    keywords='medulla-agent-deps',
+    name='medulla-agent-deps',
     version='3.2.3',
     debian_distro='stretch',
-    description = 'Dependencies needed for pulse agent',
-    url='https://www.siveo.net/',
+    description = 'Dependencies needed for Medulla agent',
+    url='https://medulla-tech.io/',
     )
