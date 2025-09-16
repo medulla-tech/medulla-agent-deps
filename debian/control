@@ -1,4 +1,4 @@
-Source: medulla-agent-deps
+Source: pulse-xmpp-agent-deps
 Section: admin
 Priority: extra
 Maintainer: Nicolas Lécureuil <nicolas.lecureuil@siveo.net>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 5.0.37.2), wget
 Standards-Version: 3.9.4
 Homepage: https://medulla-tech.io/
 
-Package: medulla-agent-deps
+Package: pulse-xmpp-agent-deps
 Architecture: all
 Depends: ${misc:Depends}
 Provides: pulse-kiosk-agent-deps
