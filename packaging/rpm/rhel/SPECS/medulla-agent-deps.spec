@@ -137,18 +137,18 @@ Url:		https://medulla-tech.io/
 BuildArch:	noarch
 
 %description
-Dependancies needed for medulla windows agent
+Dependancies needed for pulse windows agent
 
-%package -n medulla-agent-deps
-Summary:    Dependancies needed for medulla windows agent
+%package -n pulse-xmpp-agent-deps
+Summary:    Dependancies needed for pulse windows agent
 Group:      System/Servers
 Requires:   pulse2-common = %version-%release
 
 Obsoletes:  pulse-kiosk-agent-deps < 3.0
 Provides:   pulse-kiosk-agent-deps = %version-%release
 
-%description -n medulla-agent-deps
-Dependancies needed for medulla windows agent
+%description -n pulse-xmpp-agent-deps
+Dependancies needed for pulse windows agent
 
 
 %prep
