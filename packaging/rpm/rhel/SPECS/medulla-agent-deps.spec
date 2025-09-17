@@ -133,7 +133,7 @@ Source312:  https://agents.medulla-tech.io/3.0/mac/downloads/4.0.15.tar.gz
 
 License:	MIT
 Group:		Development/Java
-Url:		https://medulla-tech.io/
+Url:		http://www.siveo.org/
 BuildArch:	noarch
 
 %description
