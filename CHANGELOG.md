@@ -1,8 +1,5 @@
 # Change Log
 
-## [3.2.3](https://github.com/medulla-tech/medulla-agent-deps/releases/tag/3.2.3) (unreleased)
-- Update Netifaces to Netifaces_plus on Windows
-
 ## [3.2.2](https://github.com/medulla-tech/medulla-agent-deps/releases/tag/3.2.2) (unreleased)
 - Update Glpi Agent to version 1.12
 
