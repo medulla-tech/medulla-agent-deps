@@ -1,4 +1,9 @@
-* Add files needed for the fileviewer
+ * Update netifaces2 to netifaces_plus
+
+medulla-agent-deps 3.2.3
+=========================
+ * Add files needed for the fileviewer
+
 pulse-xmpp-agent-deps 1.10
 =========================
 

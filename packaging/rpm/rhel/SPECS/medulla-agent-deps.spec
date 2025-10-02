@@ -139,7 +139,7 @@ BuildArch:	noarch
 %description
 Dependancies needed for pulse windows agent
 
-%package -n pulse-xmpp-agent-deps
+%package -n medulla-agent-deps
 Summary:    Dependancies needed for pulse windows agent
 Group:      System/Servers
 Requires:   pulse2-common = %version-%release
@@ -147,7 +147,7 @@ Requires:   pulse2-common = %version-%release
 Obsoletes:  pulse-kiosk-agent-deps < 3.0
 Provides:   pulse-kiosk-agent-deps = %version-%release
 
-%description -n pulse-xmpp-agent-deps
+%description -n medulla-agent-deps
 Dependancies needed for pulse windows agent
 
 
