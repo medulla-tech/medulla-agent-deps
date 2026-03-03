@@ -35,6 +35,8 @@ Source20:   https://agents.medulla-tech.io/3.0/win/downloads/paexec_1_29.exe
 Source22:   https://agents.medulla-tech.io/3.0/win/downloads/GLPI-Agent-1.12-x64.msi
 Source23:   https://agents.medulla-tech.io/3.0/win/downloads/vim.exe
 Source24:   https://agents.medulla-tech.io/3.0/win/downloads/rustdesk-1.2.3-x86_64.exe
+Source25:   https://agents.medulla-tech.io/3.0/win/downloads/python-3.11.9-arm64.exe
+Source26:   https://agents.medulla-tech.io/3.0/win/downloads/curl-8.18.0_5-win64a-mingw.zip
 
 Source100:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pypiwin32-223-py3-none-any.whl
 Source101:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pywin32-306-cp311-cp311-win_amd64.whl
@@ -102,6 +104,28 @@ Source163:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/neta
 Source164:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/wheel-0.42.0-py3-none-any.whl
 Source165:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pillow-10.4.0-cp311-cp311-win_amd64.whl
 Source166:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/lmdb-1.4.1-cp311-cp311-win_amd64.whl
+Source167:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/websockets-16.0-cp311-cp311-win_amd64.whl
+Source168:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/aiofiles-25.1.0-py3-none-any.whl
+Source169:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/bcrypt-5.0.0-cp39-abi3-win_arm64.whl
+Source170:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/cffi-2.0.0-cp311-cp311-win_arm64.whl
+Source171:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/charset_normalizer-3.4.4-cp311-cp311-win_arm64.whl
+Source172:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/cryptography-46.0.3-cp311-abi3-win_arm64.whl
+Source173:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/lmdb-1.7.5-cp311-cp311-win_arm64.whl
+Source174:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/lxml-6.0.2-cp311-cp311-win_arm64.whl
+Source175:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/netifaces_plus-0.12.5-cp311-cp311-win_arm64.whl
+Source176:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pillow-10.4.0-cp311-cp311-win_arm64.whl
+Source177:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/psutil-7.2.2-cp37-abi3-win_arm64.whl
+Source178:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pycares-4.11.0-cp311-cp311-win_arm64.whl
+Source179:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pycryptodome-3.23.0-cp37-abi3-win_arm64.whl
+Source180:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pycurl-7.45.1-cp311-cp311-win_arm64.whl
+Source181:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pynacl-1.6.2-cp38-abi3-win_arm64.whl
+Source182:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pyqt6-6.9.1-cp39-abi3-win_arm64.whl
+Source183:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pyqt6_qt6-6.9.2-py3-none-win_arm64.whl
+Source184:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/PyQt6_sip-13.9.1-cp311-cp311-win_arm64.whl
+Source185:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pywin32-311-cp311-cp311-win_arm64.whl
+Source186:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/PyYAML-6.0-cp311-cp311-win_arm64.whl
+Source187:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/websockets-16.0-py3-none-any.whl
+Source188:  https://agents.medulla-tech.io/3.0/win/downloads/python_modules/pydantic-1.10.7-py3-none-any.whl
 
 Source200:	https://agents.medulla-tech.io/3.0/lin/downloads/bootstrap.js
 Source201:	https://agents.medulla-tech.io/3.0/lin/downloads/bootstrap.css
@@ -158,10 +182,10 @@ Dependancies needed for pulse windows agent
 
 %install
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/
-cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE17 %SOURCE18 %SOURCE19 %SOURCE20 %SOURCE22 %SOURCE23 %SOURCE24 %buildroot/var/lib/pulse2/clients/win/downloads/
+cp %SOURCE1 %SOURCE2 %SOURCE3 %SOURCE4 %SOURCE5 %SOURCE6 %SOURCE7 %SOURCE8 %SOURCE9 %SOURCE10 %SOURCE11 %SOURCE12 %SOURCE13 %SOURCE14 %SOURCE15 %SOURCE16 %SOURCE17 %SOURCE18 %SOURCE19 %SOURCE20 %SOURCE22 %SOURCE23 %SOURCE24 %SOURCE25 %SOURCE26 %buildroot/var/lib/pulse2/clients/win/downloads/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
-cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %SOURCE155 %SOURCE156 %SOURCE157 %SOURCE158 %SOURCE159 %SOURCE160 %SOURCE161 %SOURCE162 %SOURCE163 %SOURCE164 %SOURCE165 %SOURCE166 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
+cp %SOURCE100 %SOURCE101 %SOURCE102 %SOURCE103 %SOURCE104 %SOURCE105 %SOURCE106 %SOURCE107 %SOURCE108 %SOURCE109 %SOURCE110 %SOURCE111 %SOURCE112 %SOURCE113 %SOURCE114 %SOURCE115 %SOURCE116 %SOURCE117 %SOURCE118 %SOURCE119 %SOURCE120 %SOURCE121 %SOURCE122 %SOURCE123 %SOURCE124 %SOURCE125 %SOURCE126 %SOURCE128 %SOURCE129 %SOURCE130 %SOURCE131 %SOURCE132 %SOURCE133 %SOURCE134 %SOURCE135 %SOURCE136 %SOURCE137 %SOURCE138 %SOURCE139 %SOURCE140 %SOURCE141 %SOURCE142 %SOURCE143 %SOURCE144 %SOURCE145 %SOURCE146 %SOURCE147 %SOURCE148 %SOURCE149 %SOURCE150 %SOURCE151 %SOURCE152 %SOURCE153 %SOURCE154 %SOURCE155 %SOURCE156 %SOURCE157 %SOURCE158 %SOURCE159 %SOURCE160 %SOURCE161 %SOURCE162 %SOURCE163 %SOURCE164 %SOURCE165 %SOURCE166 %SOURCE167 %SOURCE168 %SOURCE169 %SOURCE170 %SOURCE171 %SOURCE172 %SOURCE173 %SOURCE174 %SOURCE175 %SOURCE176 %SOURCE177 %SOURCE178 %SOURCE179 %SOURCE180 %SOURCE181 %SOURCE182 %SOURCE183 %SOURCE184 %SOURCE185 %SOURCE186 %SOURCE187 %SOURCE188 %buildroot/var/lib/pulse2/clients/win/downloads/python_modules/
 
 mkdir -p %buildroot/var/lib/pulse2/clients/linux/downloads/
 cp %SOURCE200 %SOURCE201 %SOURCE202 %SOURCE203 %SOURCE204 %SOURCE205 %SOURCE206 %SOURCE207 %SOURCE208 %SOURCE209 %SOURCE210 %buildroot/var/lib/pulse2/clients/linux/downloads/
