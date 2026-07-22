@@ -300,9 +300,8 @@ build:
 	 https://agents.medulla-tech.io/3.0/mac/downloads/glyphicons-halflings-regular.woff \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/style.css \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/script.js \
-	 https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.6/FusionInventory-Agent-2.6-2.pkg.tar.gz \
-	 https://github.com/stweil/OSXvnc/releases/download/V5_3_1/VineServer-5.3.1.dmg \
-	 https://github.com/Homebrew/brew/archive/4.0.15.tar.gz \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python-3.11.9-macos11.pkg \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/GLPI-Agent-1.17_arm64.pkg \
 	 https://github.com/syncthing/syncthing/releases/download/v1.23.4/syncthing-macos-amd64-v1.23.4.zip
 	# macOS Python modules - x86_64 (Intel)
 	mkdir -p var/lib/pulse2/clients/mac/downloads/python_modules/
