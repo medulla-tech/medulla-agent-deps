@@ -76,6 +76,8 @@ var/lib/pulse2/clients/mac/downloads/python_modules/pycares-5.0.1-cp311-cp311-ma
 var/lib/pulse2/clients/mac/downloads/python_modules/pycryptodome-3.23.0-cp37-abi3-macosx_10_9_universal2.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/pyyaml-6.0.3-cp311-cp311-macosx_11_0_arm64.whl
 var/lib/pulse2/clients/mac/downloads/python_modules/slixmpp-1.8.5.tar.gz
+var/lib/pulse2/clients/mac/downloads/python-3.11.9-macos11.pkg
+var/lib/pulse2/clients/mac/downloads/GLPI-Agent-1.17_arm64.pkg
 # Windows downloads - AMD64
 var/lib/pulse2/clients/win/downloads/python-3.11.9-amd64.exe
 var/lib/pulse2/clients/win/downloads/libcurl4-8.0.1-1.tar.xz
