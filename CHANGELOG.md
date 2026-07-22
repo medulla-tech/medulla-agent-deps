@@ -1,5 +1,8 @@
 # Change Log
 
+## [3.2.4](https://github.com/medulla-tech/medulla-agent-deps/releases/tag/3.2.4) (2026-07-22)
+- Add support for ARM64 architectures for Windows
+
 ## [3.2.3](https://github.com/medulla-tech/medulla-agent-deps/releases/tag/3.2.3) (unreleased)
 - Update Netifaces to Netifaces_plus on Windows
 

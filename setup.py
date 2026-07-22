@@ -31,7 +31,7 @@ setup(
 
     keywords='medulla-agent-deps',
     name='medulla-agent-deps',
-    version='3.2.3',
+    version='3.2.4',
     debian_distro='stretch',
     description = 'Dependencies needed for pulse agent',
     url='https://www.siveo.net/',

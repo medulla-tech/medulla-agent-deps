@@ -5,7 +5,7 @@
 
 Summary:	Dependancies needed for pulse windows agent
 Name:		medulla-agent-deps
-Version:	3.2.3
+Version:	3.2.4
 %if ! %use_git
 Release:        0%{?dist}
 %else
