@@ -300,7 +300,6 @@ build:
 	 https://agents.medulla-tech.io/3.0/mac/downloads/glyphicons-halflings-regular.woff \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/style.css \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/script.js \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python-3.11.9-macos11.pkg \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/GLPI-Agent-1.17_arm64.pkg \
 	 https://github.com/syncthing/syncthing/releases/download/v1.23.4/syncthing-macos-amd64-v1.23.4.zip
 	# macOS Python modules - x86_64 (Intel)
