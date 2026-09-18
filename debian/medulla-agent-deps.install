@@ -20,9 +20,6 @@ var/lib/pulse2/clients/mac/downloads/style.css
 var/lib/pulse2/clients/mac/downloads/jquery.dataTables.css
 var/lib/pulse2/clients/mac/downloads/jquery.dataTables.js
 var/lib/pulse2/clients/mac/downloads/glyphicons-halflings-regular.woff
-var/lib/pulse2/clients/mac/downloads/4.0.15.tar.gz
-var/lib/pulse2/clients/mac/downloads/VineServer-5.3.1.dmg
-var/lib/pulse2/clients/mac/downloads/FusionInventory-Agent-2.6-2.pkg.tar.gz
 var/lib/pulse2/clients/mac/downloads/syncthing-macos-amd64-v1.23.4.zip
 # macOS downloads - x86_64 Python modules (Intel)
 var/lib/pulse2/clients/mac/downloads/python_modules/certifi-2022.12.7-py3-none-any.whl

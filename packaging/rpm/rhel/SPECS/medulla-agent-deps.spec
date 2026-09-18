@@ -152,8 +152,6 @@ Source308:	https://agents.medulla-tech.io/3.0/mac/downloads/style.css
 Source309:	https://agents.medulla-tech.io/3.0/mac/downloads/script.js
 
 Source310:  https://agents.medulla-tech.io/3.0/mac/downloads/syncthing-macos-amd64-v1.23.4.zip
-Source311:  https://agents.medulla-tech.io/3.0/mac/downloads/VineServer-5.3.1.dmg
-Source312:  https://agents.medulla-tech.io/3.0/mac/downloads/4.0.15.tar.gz
 
 License:	MIT
 Group:		Development/Java
