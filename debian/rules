@@ -4,90 +4,6 @@ DESTDIR = $(CURDIR)/debian/pulse-agent-installer
 
 build:
 	rm -fr var
-	#Windows modules
-	# Original locations
-	# wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/ \
-        #  https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe \
-        #  https://mirrors.kernel.org/sources.redhat.com/cygwin/x86_64/release/curl/libcurl4/libcurl4-8.0.1-1.tar.xz \
-        #  https://itefix.net/dl/free-software/cwrsync_6.2.8_x64_free.zip \
-        #  https://download.microsoft.com/download/8/5/C/85C25433-A1B0-4FFA-9429-7E023E7DA8D8/LGPO.zip \
-        #  https://github.com/PowerShell/Win32-OpenSSH/releases/download/v9.2.2.0p1-Beta/OpenSSH-Win64.zip \
-        #  https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.6/fusioninventory-agent_windows-x64_2.6.exe \
-        #  https://www.tightvnc.com/download/2.8.79/tightvnc-2.8.79-gpl-setup-64bit.msi \
-        #  https://github.com/syncthing/syncthing/releases/download/v1.23.4/syncthing-windows-amd64-v1.23.4.zip \
-        #  https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.css \
-        #  https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.js \
-        #  https://code.jquery.com/jquery-3.6.4.js \
-        #  https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css \
-        #  https://code.jquery.com/ui/1.13.1/jquery-ui.js \
-        #  http://cdn.datatables.net/1.13.4/css/jquery.dataTables.css \
-        #  http://cdn.datatables.net/1.13.4/js/jquery.dataTables.js \
-        #  https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
-        #  https://agents.medulla-tech.io/win/downloads/style.css \
-        #  https://agents.medulla-tech.io/win/downloads/script.js \
-        #  https://hndl.urbackup.org/Client/2.5.19/UrBackup%20Client%202.5.19.exe \
-        #  https://www.poweradmin.com/paexec/paexec_1_29.exe
-
-	# mv 'UrBackup Client 2.5.19.exe' UrBackupClient-Windows-2.5.19.exe
-	# wget --no-check-certificate -P var/lib/pulse2/clients/win/downloads/python_modules/ \
-	#  https://files.pythonhosted.org/packages/7e/9e/ad6b1ae2a5ad1066dc509350e0fbf74d8d50251a51e420a2a8feaa0cecbd/pywin32-306-cp311-cp311-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/a6/91/86a6eac449ddfae239e93ffc1918cf33fd9bab35c04d1e963b311e347a73/netifaces-0.11.0.tar.gz \
-	#  https://files.pythonhosted.org/packages/2c/c3/912cf11dab12ef61841242f588692d940ad1068358bff14d322267707d36/comtypes-1.1.14-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/a2/b4/d7b98fa23b42c97ba32abc6a439a729c814d57b098c74327ab2a60c9cfc9/slixmpp-1.8.4.tar.gz \
-	#  https://files.pythonhosted.org/packages/ab/72/991ee33a517df69c6cd6f3486cfe9b6329557cb55acaa8cefac33c2aa4d2/aiodns-3.0.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/14/e5/b56a725cbde139aa960c26a1a3ca4d4af437282e20b5314ee6a3501e7dfc/pyasn1-0.5.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/cd/8e/bea464350e1b8c6ed0da3a312659cb648804a08af6cacc6435867f74f8bd/pyasn1_modules-0.3.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/08/ca/317ea81c207ab180fe0f965f3035c746dfe0965f0c365b8b5c9c7a4af438/pycares-4.3.0-cp311-cp311-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/43/a0/cc7370ef72b6ee586369bacd3961089ab3d94ae712febf07a244f1448ffd/cffi-1.15.1-cp311-cp311-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/ee/b9/a80d1ed4d115dac8e2ac08d16af046a77ab58e3d186e22395bf2add24090/WMI-1.5.1-py2.py3-none-any.whl \
-	#  https://download.lfd.uci.edu/pythonlibs/archived/pycurl-7.45.1-cp311-cp311-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/9e/86/e1f135e123344e32dd9bfcbf420dcc2566fa3894fda78b27f981e26c170d/lxml-4.9.2-cp311-cp311-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/3f/a1/72ad8fbeb2630e74fa89622ab24ec0ce46dc93dc172156f1a112eb76c014/pycryptodome-3.18.0-cp35-abi3-win_amd64.whl
-	#  https://files.pythonhosted.org/packages/e7/f4/afbf09131612dad1737c8f9b0f4f494153f4099e114904bd6b94036e588f/croniter-1.3.14-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/d6/0f/96b7309212a926c1448366e9ce69b081ea79d63265bde33f11cc9cfc2c07/psutil-5.9.5.tar.gz  \
-	#  https://files.pythonhosted.org/packages/20/42/9e31de556d6991f041268aac913b7359f6d54d2000b0182f8051869ab140/PyQt6_sip-13.6.0-cp311-cp311-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/c9/f3/1b5b83ba66254091735d021bcecf9fe03fd86bb09e55efc633b734071a54/PyQt6_Qt6-6.6.1-py3-none-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/e9/5a/157a032999c8b69132182c73193801e429cf973b6e5ee71fee7998bdc140/sip-6.8.1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/ab/c3/57f0601a2d4fe15de7a553c00adbc901425661bf048f2a22dfc500caf121/packaging-23.1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/a3/58/35da89ee790598a0700ea49b2a66594140f44dec458c07e8e3d4979137fc/ply-3.11-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/56/7c/9dd558ec0869fcecb661765d0a2504978dbfe85de24cbcccc847aa9b58e4/paramiko-3.1.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/5e/22/d3db169895faaf3e2eda892f005f433a62db2decbcfbc2f61e6517adfa87/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl
-	#  https://files.pythonhosted.org/packages/46/81/d8c22cd7e5e1c6a7d48e41a1d1d46c92f17dae70a54d9814f746e6027dec/bcrypt-4.0.1-cp36-abi3-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/6f/14/fa7f51806a6204a8534728239c3d5b7f5fee219ccf48ca089d03b72f7573/cryptography-41.0.2-cp37-abi3-win_amd64.whl \  
-	#  https://files.pythonhosted.org/packages/09/d4/4f05f5d16a4863b30ba96c23b23e942da8889abfa1cdbabf2a0df12a4532/ecdsa-0.18.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/06/f9/b4002bbd1b6d4f3fa6566002d2a85aca33c2fc6f3cebc428616e05e4441c/syncthing2-2.4.4-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/d2/f4/274d1dbe96b41cf4e0efb70cbced278ffd61b5c7bb70338b62af94ccb25b/requests-2.28.2-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/ad/83/994bfca99e29f1bab66b9248e739360ee70b5aae0a5ee488cd776501edbc/charset_normalizer-3.1.0-cp311-cp311-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/71/4c/3db2b8021bd6f2f0ceb0e088d6b2d49147671f25832fb17970e9b583d742/certifi-2022.12.7-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl\
-	#  https://files.pythonhosted.org/packages/7b/f5/890a0baca17a61c1f92f72b81d3c31523c99bec609e60c292ea55b387ae8/urllib3-1.26.15-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/74/8f/8fc49109009e8d2169d94d72e6b1f4cd45c13d147ba7d6170fb41f22b08f/chardet-5.1.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/78/f9/690a8600b93c332de3ab4a344a4ac34f00c8f104917061f779db6a918ed6/pathlib-1.0.1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/f2/90/0cefa94206e064075f5648a1e39754e3f54f8babdc2ad9eec956adb8a80e/CherryPy-18.8.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/b5/62/05203c39d21aa3171454a6c5391ea3b582a97bfb1bc1adad25628331a1cd/autocommand-2.2.2-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/3b/15/38d6b098fe874406b7de0fa6dec300e233f6d321ee74e8150e23438adf3f/cheroot-9.0.0-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/7e/87/3931f9438eb95902539b746c3846f2f16fe91d2093d5592ba84e164a5f8a/inflect-6.0.4-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/60/28/220d3ae0829171c11e50dded4355d17824d60895285631d7eb9dee0ab5e5/jaraco.classes-3.2.3-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/31/00/792a9fb87c1398c9a73b5fded60d170019ffd4c028e3fb6d257a375fc7fb/jaraco.collections-4.1.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/0a/de/3f889cd55e69f0a91b396f6799ca31ea0d6869cde338e7c79335699090cb/jaraco.context-4.3.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/ae/3f/40ab9df938e670e71a03cc80c383015cbb79db21fea4dd5f48713d965b14/jaraco.functools-3.6.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/0d/54/28e9bb5162b04eec50aafef92b096991cc87bf46cedcc375739514ea0124/jaraco.text-3.11.1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/85/01/e2678ee4e0d7eed4fd6be9e5b043fff9d22d245d06c8c91def8ced664189/more_itertools-9.1.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/5e/d5/55f51adaa23038c8533cde602c79e314edd6525d1f7f6a15a1995abec91e/portend-3.1.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/fa/c2/3df79cd00e65678fce12e59e8c95378a992a93d7b9f9510d4f1f65df1936/pydantic-1.10.7-cp311-cp311-win_amd64.whl \
-	#  https://files.pythonhosted.org/packages/7f/99/ad6bd37e748257dd70d6f85d916cafe79c0b0f5e2e95b11f7fbc82bf3110/pytz-2023.3-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/86/fa/3f956372b84f977f8f4e9181d42fa2ba8459f8d8f056dcd2f91358571559/tempora-5.2.2-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/31/25/5abcd82372d3d4a3932e1fa8c3dbf9efac10cc7c0d16e78467460571b404/typing_extensions-4.5.0-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/a7/aa/47f00f32605177a945f3a1b36a1b2bb9a39260566541280fcee27cbff5cf/zc.lockfile-3.0.post1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/9b/d4/d3c7d029de6287ff7bd048e628920d4336b4f8d82cfc00ff078bdbb212a3/Routes-2.5.1-py2.py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/b0/30/6cc0c95f0b59ad4b3b9163bff7cdcf793cc96fac64cf398ff26271f5cf5e/repoze.lru-0.7-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/56/40/c58cd470a57af4affa87da639a9d9d339a0d5898d98faa608ac43f3e191e/simplejson-3.19.1-py3-none-any.whl \
-	#  https://files.pythonhosted.org/packages/62/9c/e94a9982e9f31fc35cf46cdc543a6c2c26cb7174635b5fd25b0bbc6a7bc0/WebOb-1.8.7-py2.py3-none-any.whl
 
 	# Windows downloads - AMD64
 	mkdir -p var/lib/pulse2/clients/win/downloads/
@@ -215,22 +131,7 @@ build:
 		https://agents.medulla-tech.io/3.0/win/downloads/python_modules/wheel-0.42.0-py3-none-any.whl \
 		https://agents.medulla-tech.io/3.0/win/downloads/python_modules/aiofiles-25.1.0-py3-none-any.whl
 
-	#Linux Modules
-	# Original locations
-	# wget --no-check-certificate -P var/lib/pulse2/clients/lin/downloads/ \
-	#  https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.js \
-    #  https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css \
-	#  https://code.jquery.com/jquery-3.5.1.js \
-	#  https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css \
-	#  https://code.jquery.com/ui/1.12.1/jquery-ui.js \
-	#  http://cdn.datatables.net/1.10.22/css/jquery.dataTables.css \
-	#  http://cdn.datatables.net/1.10.22/js/jquery.dataTables.js \
-	#  https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
-	#  https://agents.medulla-tech.io/lin/downloads/style.css \
-    #  https://agents.medulla-tech.io/lin/downloads/script.js \
-	#  https://hndl.urbackup.org/Client/2.5.19/UrBackup%20Client%20Linux%202.5.25.sh
-	# mv 'UrBackup Client Linux 2.5.19.sh' UrBackupClient-Linux-2.5.19.sh
-
+	# Linux Downloads
 	mkdir -p var/lib/pulse2/clients/lin/downloads/
 	wget --no-check-certificate -P var/lib/pulse2/clients/lin/downloads/ \
 	 https://agents.medulla-tech.io/3.0/lin/downloads/bootstrap.js \
@@ -245,49 +146,7 @@ build:
 	 https://agents.medulla-tech.io/3.0/lin/downloads/script.js \
 	 https://agents.medulla-tech.io/3.0/lin/downloads/UrBackup_Client_Linux_2.5.25.sh
 	
-	#Mac Modules
-	# TBD
-	# Original locations
-	# wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/ \
-	#  https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4/FusionInventory-Agent-2.4-1.pkg.tar.gz \
-	#  https://github.com/stweil/OSXvnc/releases/download/V5_2_1/OSXvnc-5.2.1.dmg \
-	#  https://github.com/Homebrew/brew/archive/1.5.12.tar.gz \
-	#  https://github.com/syncthing/syncthing/releases/download/v1.18.0/syncthing-macos-amd64-v1.18.0.zip\
-	#  https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.js \
-    #  https://stackpath.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css \
-    #  https://code.jquery.com/jquery-3.5.1.js \
-    #  https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css \
-    #  https://code.jquery.com/ui/1.12.1/jquery-ui.js \
-    #  http://cdn.datatables.net/1.10.22/css/jquery.dataTables.css \
-    #  http://cdn.datatables.net/1.10.22/js/jquery.dataTables.js \
-    #  https://github.com/twbs/bootstrap-sass/raw/master/assets/fonts/bootstrap/glyphicons-halflings-regular.woff \
-    #  https://agents.medulla-tech.io/win/downloads/style.css \
-    #  https://agents.medulla-tech.io/win/downloads/script.js
-	# mkdir -p var/lib/pulse2/clients/mac/downloads/python_modules/
-	# wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/python_modules/ \
-	#  https://pypi.python.org/packages/a7/4c/8e0771a59fd6e55aac993a7cc1b6a0db993f299514c464ae6a1ecf83b31d/netifaces-0.10.5.tar.gz \
-	#  https://pypi.python.org/packages/2e/33/7adcc8d6b35cb72f9cc56785a3d9c63d540200c476b0cb3a0926f5b51102/sleekxmpp-1.3.1.tar.gz \
-	#  https://files.pythonhosted.org/packages/ef/05/4b773f74f830a90a326b06f9b24e65506302ab049e825a3c0b60b1a6e26a/pycurl-7.43.0.5.tar.gz \
-	#  https://pypi.python.org/packages/11/1b/fe6904151b37a0d6da6e60c13583945f8ce3eae8ebd0ec763ce546358947/lxml-3.6.0.tar.gz \
-	#  https://pypi.python.org/packages/60/db/645aa9af249f059cc3a368b118de33889219e0362141e75d4eaf6f80f163/pycrypto-2.6.1.tar.gz \
-	#  https://files.pythonhosted.org/packages/4b/0d/7ed381ab4fe80b8ebf34411d14f253e1cf3e56e2820ffa1d8844b23859a2/python_dateutil-2.6.1-py2.py3-none-any.whl \
-	#  https://pypi.python.org/packages/c8/0a/b6723e1bc4c516cb687841499455a8505b44607ab535be01091c0f24f079/six-1.10.0-py2.py3-none-any.whl \
-	#  https://pypi.python.org/packages/58/2a/17d003f2a9a0188cf9365d63b3351c6522b7d83996b70270c65c789e35b9/croniter-0.3.16.tar.gz \
-	#  https://pypi.python.org/packages/e2/e1/600326635f97fee89bf8426fef14c5c29f4849c79f68fd79f433d8c1bd96/psutil-5.4.3.tar.gz \
-	#  https://files.pythonhosted.org/packages/4c/14/3408e92e28f4a38f51573e5ba83017fde8e3ae70522555ee2b19347e0f6e/plyvel-1.2.0.tar.gz \
-	#  https://files.pythonhosted.org/packages/95/a8/72f860ff71bc260a4c815f50c65e04d69b9c5a3e51ff82afe3cd6757faa9/paramiko-1.18.5-py2.py3-none-any.whl \
-        #  https://files.pythonhosted.org/packages/09/d4/4f05f5d16a4863b30ba96c23b23e942da8889abfa1cdbabf2a0df12a4532/ecdsa-0.18.0-py2.py3-none-any.whl
-	#  https://files.pythonhosted.org/packages/06/f9/b4002bbd1b6d4f3fa6566002d2a85aca33c2fc6f3cebc428616e05e4441c/syncthing2-2.4.4-py3-none-any.whl
-        #  https://files.pythonhosted.org/packages/09/d4/4f05f5d16a4863b30ba96c23b23e942da8889abfa1cdbabf2a0df12a4532/ecdsa-0.18.0-py2.py3-none-any.whl
-        #  https://files.pythonhosted.org/packages/06/f9/b4002bbd1b6d4f3fa6566002d2a85aca33c2fc6f3cebc428616e05e4441c/syncthing2-2.4.4-py3-none-any.whl
-        #  https://files.pythonhosted.org/packages/d2/f4/274d1dbe96b41cf4e0efb70cbced278ffd61b5c7bb70338b62af94ccb25b/requests-2.28.2-py3-none-any.whl
-        #  https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl
-        #  https://files.pythonhosted.org/packages/71/4c/3db2b8021bd6f2f0ceb0e088d6b2d49147671f25832fb17970e9b583d742/certifi-2022.12.7-py3-none-any.whl
-        #  https://files.pythonhosted.org/packages/74/8f/8fc49109009e8d2169d94d72e6b1f4cd45c13d147ba7d6170fb41f22b08f/chardet-5.1.0-py3-none-any.whl
-        #  https://files.pythonhosted.org/packages/78/f9/690a8600b93c332de3ab4a344a4ac34f00c8f104917061f779db6a918ed6/pathlib-1.0.1-py3-none-any.whl
-	#  https://files.pythonhosted.org/packages/ce/75/0b8ede18506041c0bf23ac4d8e2971b4161cd6ce630b177d0a08eb0d8857/PyNaCl-1.5.0-cp36-abi3-macosx_10_10_universal2.whl
-
-	# macOS downloads
+	# MacOS Downloads
 	mkdir -p var/lib/pulse2/clients/mac/downloads/
 	wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/ \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/bootstrap.js \
@@ -301,65 +160,61 @@ build:
 	 https://agents.medulla-tech.io/3.0/mac/downloads/style.css \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/script.js \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python-3.11.9-macos11.pkg \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/GLPI-Agent-1.17_arm64.pkg \
-	 https://github.com/syncthing/syncthing/releases/download/v1.23.4/syncthing-macos-amd64-v1.23.4.zip
-	# macOS Python modules - x86_64 (Intel)
+	 https://agents.medulla-tech.io/3.0/mac/downloads/GLPI-Agent-1.17_arm64.pkg
+	# macOS Python modules
 	mkdir -p var/lib/pulse2/clients/mac/downloads/python_modules/
 	wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/python_modules/ \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/netifaces-0.11.0.tar.gz \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/slixmpp-1.8.5.tar.gz \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pycurl-7.45.2.tar.gz \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/lxml-4.9.2-pp39-pypy39_pp73-macosx_10_15_x86_64.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pycryptodome-3.18.0-cp35-abi3-macosx_10_9_x86_64.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/six-1.16.0-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/croniter-1.3.14-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/psutil-5.9.5-cp36-abi3-macosx_10_9_x86_64.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/plyvel-1.5.0.tar.gz \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/paramiko-3.1.0-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/syncthing2-2.4.4-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/requests-2.28.2-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/idna-3.4-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/certifi-2022.12.7-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/chardet-5.1.0-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pathlib-1.0.1-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/PyNaCl-1.5.0-cp36-abi3-macosx_10_10_universal2.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/packaging-24.1-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pillow-10.4.0-cp311-cp311-macosx_10_10_x86_64.whl
-	# macOS Python modules - ARM64 (Apple Silicon M1/M2/M3/M4)
-	mkdir -p var/lib/pulse2/clients/mac/downloads/python_modules/
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/slixmpp-1.8.5.tar.gz
+	# macOS downloads - ARM64 Python wheels (Apple Silicon M1/M2/M3/M4)
 	wget --no-check-certificate -P var/lib/pulse2/clients/mac/downloads/python_modules/ \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/aiodns-3.0.0-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/aiodns-4.0.4-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/aiofiles-25.1.0-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/CherryPy-18.10.0-py3-none-any.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/certifi-2022.12.7-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/CherryPy-18.8.0-py2.py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/cffi-2.1.1-cp311-cp311-macosx_11_0_arm64.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/chardet-5.1.0-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/charset_normalizer-3.5.1-cp312-cp312-macosx_10_13_universal2.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/cheroot-11.1.2-py3-none-any.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/configparser-7.2.0-py3-none-any.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/croniter-1.3.14-py2.py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/cryptography-50.0.1-cp311-abi3-macosx_11_0_arm64.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/distro-1.9.0-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/ecdsa-0.18.0-py2.py3-none-any.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/idna-3.4-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/netaddr-0.8.0-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/packaging-24.1-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pyasn1-0.5.0-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pyasn1_modules-0.3.0-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pycparser-2.21-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pyopenssl-26.0.0-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/requests-2.28.2-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/six-1.16.0-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/typing_extensions-4.5.0-py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/urllib3-1.26.15-py2.py3-none-any.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/cffi-2.0.0-cp311-cp311-macosx_11_0_arm64.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/charset_normalizer-3.4.7-cp311-cp311-macosx_10_9_universal2.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/cryptography-46.0.7-cp311-abi3-macosx_10_9_universal2.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/lmdb-2.2.0-cp311-cp311-macosx_11_0_arm64.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/lxml-6.0.4-cp311-cp311-macosx_10_9_universal2.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/jaraco_collections-5.2.1-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/jaraco_context-6.1.2-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/jaraco_functools-4.6.0-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/jaraco_text-4.3.0-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/lmdb-2.3.0-cp311-cp311-macosx_11_0_arm64.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/lxml-6.1.3-cp311-cp311-macosx_10_9_universal2.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/netaddr-1.3.0-py3-none-any.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/netifaces_plus-0.12.5-cp311-cp311-macosx_11_0_arm64.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/packaging-26.3-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/paramiko-3.1.0-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pathlib-1.0.1-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pillow-12.3.0-cp311-cp311-macosx_11_0_arm64.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/portend-3.2.1-py3-none-any.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/posix_ipc-1.3.2-cp311-cp311-macosx_11_0_arm64.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pyasn1-0.6.4-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pyasn1_modules-0.4.2-py3-none-any.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pycares-5.0.1-cp311-cp311-macosx_11_0_arm64.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pycparser-3.0-py3-none-any.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pycryptodome-3.23.0-cp37-abi3-macosx_10_9_universal2.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pycurl-7.48.0-cp311-cp311-macosx_11_0_arm64.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/PyNaCl-1.5.0-cp36-abi3-macosx_10_10_universal2.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pyopenssl-26.4.0-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/python_dateutil-2.8.2-py2.py3-none-any.whl \
 	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/pyyaml-6.0.3-cp311-cp311-macosx_11_0_arm64.whl \
-	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/slixmpp-1.8.5.tar.gz
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/requests-2.28.2-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/six-1.16.0-py2.py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/syncthing2-2.4.4-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/tempora-5.12.0-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/typing_extensions-4.16.0-py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/urllib3-1.26.20-py2.py3-none-any.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/websockets-17.1-cp311-cp311-macosx_11_0_arm64.whl \
+	 https://agents.medulla-tech.io/3.0/mac/downloads/python_modules/zc_lockfile-4.0-py3-none-any.whl
 	rm -frv $(DESTDIR)/tmp
 clean:
 	dh_testdir
